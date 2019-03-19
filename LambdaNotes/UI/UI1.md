@@ -2,8 +2,12 @@ MONDAY MARCH 18TH - SUNDAY MARCH 24TH
 
 ---HTML5
 
+W3C = World Wide Web Consortium
+
 The W3C uses the word recommended to describe the most up to date standards. 
 The word SEMANTIC is used to describe tags with meaning.
+
+Non semantic code will lose out on SEO
 
 h1-h6
 p
