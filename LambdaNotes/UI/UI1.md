@@ -7,7 +7,9 @@ W3C = World Wide Web Consortium
 The W3C uses the word recommended to describe the most up to date standards. 
 The word SEMANTIC is used to describe tags with meaning.
 
-Non semantic code will lose out on SEO
+1. Accessibility for screen readers.
+2. Easier for the next developer reading your code.
+3. Non semantic code will lose out on SEO
 
 h1-h6
 p
@@ -16,6 +18,17 @@ nav
 header
 footer
 aside
+
+Presentational Markup is for style and layout of your web page.
+Some presentational markup examples:
+
+div
+span
+hr
+br
+
+
+
 
 We use div tags to create space, add structure or style elements.
 Semantic HTML concepts go deeper into search engine optimization.
