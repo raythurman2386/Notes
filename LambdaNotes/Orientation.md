@@ -13,3 +13,5 @@ ASK QUESTIONS
 
 Look ahead at least a day in the training kit
 
+MONDAY MARCH 18TH
+
