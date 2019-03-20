@@ -2,6 +2,8 @@ MONDAY MARCH 18TH - SUNDAY MARCH 24TH
 
 ---HTML5
 
+href = hyperlink reference
+
 W3C = World Wide Web Consortium
 
 The W3C uses the word recommended to describe the most up to date standards. 
@@ -27,6 +29,7 @@ span
 hr
 br
 
+Could use CSS on divs in presentational markup to split the content without hurting the page layout.
 
 
 
