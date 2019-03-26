@@ -1,4 +1,7 @@
 --- FLEXBOX
+Flex box only works on block level elements and can be nested.
+But flex box will only go one level deep
+
 Flex box is a module of CSS
 
 display: flex; invokes a whole module of options to use.
