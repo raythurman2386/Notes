@@ -11,3 +11,5 @@ The Lambda School Git Flow
     PM will then count the HW as done by merging the HW into master Student Fork
 
     fork repo -> clone repo -> git checkout -b 'raymond-thurman' -> git push -u origin raymond-thurman 
+
+---PULL REQUESTS
