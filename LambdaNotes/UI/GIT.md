@@ -13,3 +13,6 @@ The Lambda School Git Flow
     fork repo -> clone repo -> git checkout -b 'raymond-thurman' -> git push -u origin raymond-thurman 
 
 ---PULL REQUESTS
+    Submits your changes to the master repo
+    used in Lambda to turn your projects in.
+    
