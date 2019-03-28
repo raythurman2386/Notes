@@ -29,3 +29,5 @@
         Responsive units are used throughout the site
         media queries
         takes longer to build. 
+
+    Responsive requires the use of the meta viewport tag to control the width and scaling of the browser's viewport.
