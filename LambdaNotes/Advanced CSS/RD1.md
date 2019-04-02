@@ -24,6 +24,7 @@
         Quick deployment for specific devices
 
     --Responsive Layout combine features of all of the above designs. uses media queries to constrain responsive units. You get an experience that looks and functions beautifully across all devices.
+    kind of a mixture between fluid and adaptive
 
     Features
         Responsive units are used throughout the site
