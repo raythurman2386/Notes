@@ -71,7 +71,7 @@ Nested @ rule usage for media queries. Makes your code much more readable.
         }
     }
 
-LESS also allows for some simple mather operators such as + - * / on any number, color or variable
+LESS also allows for some simple math operators such as + - * / on any number, color or variable
     .some-class {
         width: 100px + 10;  // 110px
     }
