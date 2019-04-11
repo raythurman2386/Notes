@@ -12,31 +12,31 @@ LESS variables start with a @ sign
 LESS Mixins derive their name from the ability to mix different classes together. Being able
 to create one class and use it's properties within another class.
 
-    .some-class {
+    .some-class() {
         color: red;
         font-size: 14px;
     }
 
-    .example-mixin {
+    .example-mixin() {
         text-align: center;
         .some-class;
     }
 
-    .font-class {
+    .font-class() {
         color: black;
         font-size: 18px;
         text-align: center;
     }
 
-    .box-class {
+    .box-class() {
         width: 100px;
         height: 100px;
         background: gray;
     }
 
     .example-mixin {
-        .font-class;
-        .box-class;
+        .font-class();
+        .box-class();
     }
 
 Nesting is extremely useful for organizing our code and keeping our specificity scoped properly. A good rule to follow is to avoid going more than 4 levels deep.
