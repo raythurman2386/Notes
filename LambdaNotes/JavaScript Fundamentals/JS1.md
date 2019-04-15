@@ -125,3 +125,23 @@ Object Literals
             Object.values() -> Gives us an array of all the objects values
 
             Object.entries() -> Gives us an array of the objects key/value pairs as a tuple
+
+Arrays 
+    Arrays are just a special type of object. WHat makes them special is their ability to store ordered values.
+    Arrays have special 0 based indexing.
+
+    You can access any item in an array by selecting the array, use square brackets and select which index you want to reference.
+
+    const hogwarts = ['Harry', 'Hermione', 'Ron'];
+    hogwarts[0] === 'Harry';
+    hogwarts[1] === 'Hermione';
+    hogwarts[2] === 'Ron';
+
+    add an item to the end of an array with .push()
+    howarts.push('Dumbledore') -> ['Harry', 'Hermione', 'Ron', 'Dumbledore']
+
+    add an item to the beginning with .unshift()
+    hogwarts.unshift('Snape') -> ['Snape', 'Harry', 'Hermione', 'Ron', 'Dumbledore']
+
+    then you can remove from the end with .pop()
+    and remove from the beginning with .shift()
