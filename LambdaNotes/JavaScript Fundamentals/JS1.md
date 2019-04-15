@@ -89,3 +89,39 @@ Var, Let, and Const
     var is function scoped
 
     let & const are block scoped
+
+        function scoped means it is only available inside of the function that they are created in.
+
+        Globally scoped are made outside of a function and available to the entire document
+
+        Anytime you see { Curly Brackets } that is a block
+
+Object Literals
+    Objects are used all over in JavaScript
+    Everything in JS is an object.
+    Objects are used almost in every single part of the JS language
+
+    Object Properties
+        Objects are used as a way to store data and give the programmer access to that data when needed.
+        This ability to store and call data is known as a property
+        Object Properties are key:value pairs
+
+            const myPersonalObject = {
+                firstName: 'Fred',
+                lastName: 'Flintstone',
+            };
+
+        dot notation = myPersonalObject.firstName // 'Fred'
+        Bracket notation = myPersonalObject["firstName"] // 'Fred'
+
+        to change a property just pass it a new value, such as
+        myPersonalObject.firstName = 'Wilma';
+
+        an objects values are MUTABLE, meaning the values can be changed.
+
+        Object Methods
+            Object.keys() -> Gives us an array back of the Objects properties/keys
+
+            Object.values() -> Gives us an array of all the objects values
+
+            Object.entries() -> Gives us an array of the objects key/value pairs as a tuple
