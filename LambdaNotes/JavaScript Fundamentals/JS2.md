@@ -51,3 +51,21 @@ Closure
         }
         var sayHelloClosure = sayHello();
         sayHelloClosure(); // 'Hello, world!'
+
+        // Global Execution Context
+        var x = 10;
+        function foo() {
+            // Execution Context (foo)
+            var y = 20; // Free Variable
+
+            function bar(){
+                // Execution Context (bar)
+                var z = 15; // Free Variable
+                var output = x + y + z;
+                return output;
+            }
+            return bar;
+        }
+
+        AT ANY POINT IN TIME, THERE CAN ONLY BE ONE EXECUTION CONTEXT RUNNING
+        
