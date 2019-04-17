@@ -95,3 +95,44 @@ Callback Functions
 THE BIGGEST DIFFERNCE BETWEEN FOREACH AND MAP, IS THAT MAP RETURNS A NEW ARRAY OF ELEMENTS WHILE IN TURN PASSING EACH ELEMENT BACK TO THE CALLBACK.
 
     const newArray = elements.map(item => 'Element: ' + item);
+
+
+ARRAY METHODS
+const data = [
+  {"city":"seattle", "state":"WA", "population":652405, "land_area":83.9},
+  {"city":"new york", "state":"NY", "population":8405837, "land_area":302.6},
+  {"city":"boston", "state":"MA", "population":645966, "land_area":48.3},
+  {"city":"kansas city", "state":"MO", "population":467007, "land_area":315}
+];
+
+.map
+    const cityStates = [];
+    for(let i = 0; i < data.length; i++){
+        let mappedObj = {};
+        mappedObj.city = data[i].city;
+        mappedObj.state = data[i].state;
+        cityStates.push(mappedObj);
+        mappedObj = {};
+    }
+            OR
+    const mappedCityStates = data.map(state => {'city': state.city, 'state': state.state});
+    const mappedCityStates = data.map((state, index, data) => {'city': state.city, 'state': state.state});
+
+.filter
+    const largeStates = [];
+    for(let i = 0; i < data.length; i++){
+        if(data[i].population >= 650000){
+            largeStates.push(data[i]);
+        }
+    }
+            OR
+    const filterLargeStates = data.filter(state => state.population >= 650000);
+
+.reduce 
+    let statePopulations = 0;
+    for(let i = 0; i < data.length; i++){
+        statePopulations += data[i].population;
+    }
+
+            OR
+    const reduceStatePopulations = data.reduce((total, state) => {total += state.population}, 0);
