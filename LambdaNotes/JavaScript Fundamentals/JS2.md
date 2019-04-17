@@ -26,3 +26,28 @@ Closure
         let adder = createAdder();
         let sum = adder(val, 8)
         console.log('example of function returning a function: ', sum);
+
+    Closures are functions that refer to independent variables. In other words, the function defined in the closure 'remembers'  the environment in which it was created.
+
+    Free variables are variables that are neither locally declared nor passed as parameter.
+        function numberGenerator(){
+            // Local "free" variable that ends up within the closure
+            var num = 1;
+            function checkNumber(){
+                console.log(num);
+            }
+            num++;
+            return checkNumber;
+        }
+        var number = numberGenerator();
+        number(); // 2
+
+        function sayHello(){
+            var say = function(){ console.log(hello); }
+
+            // Local var that ends up within the closure
+            var hello = 'Hello, world!';
+            return say;
+        }
+        var sayHelloClosure = sayHello();
+        sayHelloClosure(); // 'Hello, world!'
