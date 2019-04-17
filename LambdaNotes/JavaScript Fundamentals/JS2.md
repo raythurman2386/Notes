@@ -68,4 +68,30 @@ Closure
         }
 
         AT ANY POINT IN TIME, THERE CAN ONLY BE ONE EXECUTION CONTEXT RUNNING
-        
+
+Callback Functions
+    Functions that are passed into other functions as arguments. And the concept is commonly used throughout JS.
+
+    Functions are like any other type, and they can be passed around as arguments to other functions.
+
+
+    const elements = ['earth', 'wind', 'fire', 'water'];
+    function showFirst(array, callback){
+        callback(array[0]);
+    }
+    showFirst(elements, (firstItem) => {
+        alert(firstItem);
+    });
+
+    function showLength(array, callback){
+        callback(array.length);
+    }
+    showLength(elements, (length) => {
+        alert(length);
+    });
+
+    elements.forEach(element => alert(element));
+
+THE BIGGEST DIFFERNCE BETWEEN FOREACH AND MAP, IS THAT MAP RETURNS A NEW ARRAY OF ELEMENTS WHILE IN TURN PASSING EACH ELEMENT BACK TO THE CALLBACK.
+
+    const newArray = elements.map(item => 'Element: ' + item);
