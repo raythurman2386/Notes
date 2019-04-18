@@ -1,14 +1,16 @@
-THIS Keyword
+THIS Keyword - A pronoun to use in place of an object
 
 4 Principles
   --When in the global scope, the value of 'this' will be the window/console Object;
+    
     function sayName(name){
       console.log(this);
       return name;
     }
     sayName("D'Artagnan");
 
-  --Whenever a function is called by a preceding dot, the object before that dot is this
+  --Implicit Binding - Whenever a function is called by a preceding dot, the object before that dot is this
+    
     const myObj = {
       greeting: 'Hello';
       sayHello: function(name){
@@ -33,7 +35,7 @@ THIS Keyword
     me.sayName();
     you.sayName();
 
-  --Whenever a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function
+  --New binding - Whenever a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function
 
       A constructor function is a function that returns an object. It is an object creator.
 
@@ -52,4 +54,5 @@ THIS Keyword
       jerry.speak();
       newman.speak();
 
-  --Whenever JS's call or apply method is used, 'this' is explicitly defined.
+  --Explicit Binding - Whenever JS's call or apply method is used, 'this' is explicitly defined.
+      jerry.speak.call(newman); newman.speak.apply(jerry);
