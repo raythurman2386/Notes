@@ -135,4 +135,4 @@ const data = [
     }
 
             OR
-    const reduceStatePopulations = data.reduce((total, state) => {total += state.population}, 0);
+    const reduceStatePopulations = data.reduce((total, state) => {return total += state.population}, 0);
