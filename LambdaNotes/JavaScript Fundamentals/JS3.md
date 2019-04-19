@@ -56,3 +56,33 @@ THIS Keyword - A pronoun to use in place of an object
 
   --Explicit Binding - Whenever JS's call or apply method is used, 'this' is explicitly defined.
       jerry.speak.call(newman); newman.speak.apply(jerry);
+
+
+CONSTRUCTORS AND PROTOTYPES
+  The constructor function is a way that we can build objects
+
+    function Animal(object){        // Constructors are capitalized for best practices
+      this.name = object.name;
+      this.age = object.age;
+    }
+
+  A constructor function, constructs objects. It can be thought of as a template for the design of the object. The function itself needs to take in an object literal of some sort so that it can map that object literal's properties to a new object that will be returned once instantiated.
+
+    function Person(attributes){
+      this.age = attributes.age;
+      this.name = attributes.name;
+      this.hometown = attributes.homeTown;
+      this.speak = function() {
+        return `Hello, my name is ${this.name}.`;
+      };
+    }
+  Now that the constructor is in place, we can use it to create a 'new' Person.
+    when 'new' is called, the constructor can essentially create a context for a 'this' object
+
+    const fred = new Person({
+      age: 35,
+      name: 'Fred',
+      homeTown: 'Bedrock',
+    });
+    console.log(fred); console.log(fred.speak());
+  This shows how speak was inherited from the Person object and showcases that we are using inheritance and introduces how we can use prototypes in JS
