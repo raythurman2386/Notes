@@ -1,4 +1,5 @@
-THIS Keyword - A pronoun to use in place of an object
+THIS Keyword *********************************************************************************************** 
+A pronoun to use in place of an object
 
 4 Principles
   --When in the global scope, the value of 'this' will be the window/console Object;
@@ -58,7 +59,7 @@ THIS Keyword - A pronoun to use in place of an object
       jerry.speak.call(newman); newman.speak.apply(jerry);
 
 
-CONSTRUCTORS AND PROTOTYPES
+CONSTRUCTORS ************************************************************************************************
   The constructor function is a way that we can build objects
 
     function Animal(object){        // Constructors are capitalized for best practices
@@ -85,4 +86,7 @@ CONSTRUCTORS AND PROTOTYPES
       homeTown: 'Bedrock',
     });
     console.log(fred); console.log(fred.speak());
+
   This shows how speak was inherited from the Person object and showcases that we are using inheritance and introduces how we can use prototypes in JS
+
+PROTOTYPES **********************************************************************************************
