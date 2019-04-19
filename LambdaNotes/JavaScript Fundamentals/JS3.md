@@ -90,3 +90,41 @@ CONSTRUCTORS *******************************************************************
   This shows how speak was inherited from the Person object and showcases that we are using inheritance and introduces how we can use prototypes in JS
 
 PROTOTYPES **********************************************************************************************
+An object that objects use to hold onto values that can be passed down to other objects.
+
+    function Person(attributes){
+      this.age = attributes.age;
+      this.name = attributes.name;
+      this.homeTown = attributes.homeTown;
+    }
+
+    Person.prototype.speak = function () {
+      return `Hello, my name is ${this.name}`;
+    }
+
+    function Child(childAttr){
+      Person.call(this, childAttr);
+      this.isChild = childAttr.isChild;
+    }
+
+    Child.prototype = Object.create(Person.prototype);
+  Object.create shows how the class keyword works under the hood
+
+    const pebbles = new Child({
+      age: 3,
+      name: 'Pebbles',
+      homeTown: 'Bedrock',
+    });
+
+  We are using the prototypes inheritance from the Child constructor to access out Person properties.
+
+    pebbles.speak();
+  This used inheritance from the Person prototype to use pebbles.speak.
+
+  this method needs to be placed underneath the Object.create method for this to work properly.
+    
+    Child.prototype.checkIfChild = function(){
+      if(this.isChild){
+        console.log(`My name is ${this.name} and I am a child object`);
+      }
+    };
