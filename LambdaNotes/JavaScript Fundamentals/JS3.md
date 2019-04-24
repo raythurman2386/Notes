@@ -129,3 +129,5 @@ An object that objects use to hold onto values that can be passed down to other 
         console.log(`My name is ${this.name} and I am a child object`);
       }
     };
+
+    Object.create will need to be made for each child element to link it to the element above it.
