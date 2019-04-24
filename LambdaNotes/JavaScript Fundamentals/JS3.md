@@ -109,6 +109,7 @@ An object that objects use to hold onto values that can be passed down to other 
     }
 
     Child.prototype = Object.create(Person.prototype);
+    
   Object.create shows how the class keyword works under the hood
 
     const pebbles = new Child({
