@@ -64,7 +64,7 @@ Functions
         When not to use Arrow functions
             Event handlers
             Object methods
-            Prototype Metheds
+            Prototype Methods
             Anytime you need to use arguments Object
 
 Var, Let, and Const
