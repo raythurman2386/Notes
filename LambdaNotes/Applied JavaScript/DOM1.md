@@ -86,3 +86,10 @@ Manipulate Data in the DOM
       .children returns a HTMLCollection of all the children of that element
       .parentNode returns the parent element of that element
     
+Create a new Element and add it to the DOM
+    
+    document.createElement('h1');
+  creates a new element
+  element will exist in memory but not quite in the dom yet
+
+  .append and .prepend will add these newly created elements to the DOM
