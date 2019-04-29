@@ -40,4 +40,49 @@ Difference between HTMLCollection, NodeList, and Array
     Array.from(arrayLikeObject);
 
 
+Manipulate Data in the DOM
+  after we have saved our element to a variable, we can then use that instance of the element to access and assign values.
+  Here are the most commonly used methods:
+
+    .textContent
+      gets and sets the text of an element
+      uses the assignment operator to reset the text
+      element.textContent = 'Something New';
+
+    .setAttribute();
+      used as a way to set or reassign an attribute on the element
+      takes two arguments, the attribute to set, and the value to set it to
+      element.setAttribute('src', 'http://www.imagsource.com/image.jpg'); --or--
+      element.src = 'http://www.imagsource.com/image.jpg';
+
+    .style
+      can be used to add inline styles to an object
+      uses the assignment operator to change the styling
+      This DOES NOT change anything in the CSS file
+      element.style.color = 'blue';
+
+    .className, .id
+      className accesses or assigns a string containing all of the classes on the element
+      id accesses or assigns a string containing the id of the element
+
+    .classList
+      classList will return an array-like object of all the classes on the element. There are a number of useful methods available on classList
+        classList is a DOMTokenList
+          a DOMTokenList is an array-like object with a numerical zero-based index, a length property,
+          also .contains() and .forEach() methods
+        Most notable the methods .add() .remove() and .toggle() exist
+          .add('className') and .remove('.className') do as their name indicates
+          .toggle('className') will add the class if it does not exist and remove it if it does
+
+    .appendChild() and .prepend()
+      these are used to add child elements to parent elements
+      .append will add and item to the end of the parent elements
+        parentElement.appendChild(childElement);
+      .prepend add the child to the beginning, which will cause it to display first
+        parentElement.prepend(childElement);
+
+    .children and .parentNode
+      used for accessing relatives of the element
+      .children returns a HTMLCollection of all the children of that element
+      .parentNode returns the parent element of that element
     
