@@ -21,3 +21,6 @@ This allows us to pass info from our HTML to JS or CSS
   We can also use the data attribute in a css style selector
 
     const schoolElement = document.querySelector('div[data-school='Lambda']');
+
+
+https://codepen.io/rayraysfunhouse/pen/byVWwo
