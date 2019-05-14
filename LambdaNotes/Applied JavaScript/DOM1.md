@@ -1,4 +1,4 @@
-DOM
+#DOM
 
   The Document Object Model is an object representation of the html elements of a webpage.
 
@@ -8,7 +8,7 @@ DOM
 
   Document contains dozens of built in methods and properties
 
-DOM Selectors
+#DOM Selectors
   DOM selectors are case sensitive.
   These are all of the older selectors
 
@@ -40,7 +40,7 @@ Difference between HTMLCollection, NodeList, and Array
     Array.from(arrayLikeObject);
 
 
-Manipulate Data in the DOM
+#Manipulate Data in the DOM
   after we have saved our element to a variable, we can then use that instance of the element to access and assign values.
   Here are the most commonly used methods:
 
@@ -86,7 +86,7 @@ Manipulate Data in the DOM
       .children returns a HTMLCollection of all the children of that element
       .parentNode returns the parent element of that element
     
-Create a new Element and add it to the DOM
+#Create a new Element and add it to the DOM
     
     document.createElement('h1');
   creates a new element

@@ -1,9 +1,9 @@
-Event Listeners
+#Event Listeners
 
 Every interaction a user has with a site is known as an event, a click, moving the mouse, scrolling 
 the page, pressing a key on the keyboard.
 
-MDN lists every event we can access
+#MDN lists every event we can access
 
   .addEventListener
 
@@ -15,7 +15,7 @@ MDN lists every event we can access
 
     element.addEventListener('click', (event) => {//Handle event});
 
-Event Propagation
+#Event Propagation
 
   Event propagation can cause headaches when dealing with events. It is best to learn how to recognize this fewture and how to properly prevent it from happening
 
@@ -31,7 +31,7 @@ Event Propagation
 
     const eventHandler = e => { e.stopPropagation() }
 
-Prevent Default
+#Prevent Default
 
   some elements have a native default reactin to certain events.
   
