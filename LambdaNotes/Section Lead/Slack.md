@@ -16,15 +16,15 @@
 # NOTE: TIMES ARE RELATIVE TO YOUR SLACK PROFILE’S TIMEZONE
 
 # Tkit Prep
-    /remind #webpt8 "@here It's Training Kit Prep Time! Please look over your Tkit until 7:30PM Eastern, The guided project will start soon after that." every Tuesday, and Thursday
+    /remind #webpt8 "@here It's Training Kit Prep Time! Please look over your Tkit until 7:30PM Eastern, The guided project will start soon after that." 7:00PM every Tuesday, and Thursday
 
 # Project Times
-    /remind #webpt8 "@here It's Project Time! Please work on your daily project until 9:30PM Eastern" every Wednesday 
+    /remind #webpt8 "@here It's Project Time! Please work on your daily project until 9:30PM Eastern" 7:00PM every Wednesday 
 
 #Daily Standup Reports
-    /remind #webpt8 @here "Please take a moment to reflect upon your day and fill out your Daily Standup report:
+    /remind #webpt8 "@here Please take a moment to reflect upon your day and fill out your Daily Standup report:
     https://airtable.com/shr8ZYuNjevMLRsxI
-    We read and appreciate all feedback - positive, criticisms, suggestions - we want to hear from you :)" 9:30PM every Tuesday, and Thursday
+    We read and appreciate all feedback - positive, criticisms, suggestions - we want to hear from you :)" 9:15PM every Wednesday
 
     /remind #webpt8_chat @here "Please take a moment to reflect upon your day and fill out your Daily Standup report:
     https://airtable.com/shr8ZYuNjevMLRsxI
@@ -60,7 +60,7 @@
     Thank you :slightly_smiling_face:" 9:50PM every other Sunday
 
 # Staff_pm attendance
-    /remind staff_pm @channel Please take attendance for your group of students and make note of their participation in the first hour’s activities:
+    /remind webpt8_pm "@here Please take attendance for your group of students and make note of their participation in the first hour’s activities:
     M/W Code Challenge
     T/Th Peer Code Review, or
-    https://airtable.com/shrEawWXvMldYbm5Q :thanks: 7:00PM every weekday
+    https://airtable.com/shrEawWXvMldYbm5Q :thanks:" 7:00PM every weekday

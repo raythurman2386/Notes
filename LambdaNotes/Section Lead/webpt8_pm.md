@@ -1,33 +1,51 @@
-Chris Adams
+PM/Student Groupings
+# *Aislynn Edmiston (WEBPT8)*
+Carl Redding, Braedon Paramore, Alan Niederauer, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
 
-Daniel sockness
+# *Amber Pittman (WEBPT8)*    
+Daniel Morel, Aaron Spurgeon, Barbara Mayfield, Jacob Calvino, Darren Angus, Ayisha Echevarria, Jesse Tingle, Najja OConnor
 
-Derrick Mei
+# *Angelo Deleon (WEBPT8)*
+Humayun Rashid, Ian Carreras, Christine Fletcher, Stephen Freeman, Clifton Hodges, Angela Flowers, Ruth Poliakon, Tony Odele
 
-Donald Whitely
+# *Billy Baney (WEBPT8)*  
+Renz Jayson Mallari, Sara Pettigrew, Khyam Arain, Charles Wallace, Ariel Rodriguez, Kenneth Boelter, Michael Parker, Ramy Metry
 
-Jason Aviles
+# *Christopher Adams (WEBPT8)*    
+Carla Johnson, Roberto Ramirez, Bradley Pitts, Malachai Woodiwiss, Jules Pierre-Louis, Nicholas Gallucci, Kevin Carr
 
-Larry Simiyu
+# *Daniel Sockness (WEBPT8)*  
+Jose Talancha, Rabah Babaci, Michael Lowe, Kyle Leonard, Daniel Martin, Md Alam, Darion Suggs, Brian Day
 
-Josh Kersting
+# *Derrick Mei (WEBPT8)*  
+Andrew Bastian, Kris Moore, Charquavis Walker, Aaron Verdine, Adam Maley, Jacob Williams, Tammy Fisher
 
-Amber Pittman
+# *Donald Whitely (WEBPT8)*   
+Von Arzu, Trevor Thompson, Jose Medrano, Raymond Moore, Michele Berg, Ali Dervisoglu, Antonio Dinkins, Joe Brown, Amine Dassouki
 
-Aislynn Edmiston
+# *Duc Vu (WEBPT8)*   
+Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Stephanie Otzoy, Nicholas Spain, Ana Wagner
 
-Billy Baney
+# *Elijah Conley (WEBPT8)*    
+Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
 
-Duc Vu Duke
+# *Irving Duran (WEBPT8)* 
+Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Chris Reynoso, Jenny OBryant, Juanita Purcell, Farjad Fazli
 
-Irving Jose Duran
+*Jason Aviles (WEBPT8)* 
+John David, Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
 
-Joe Alfaro
+*Joseph Alfaro (WEBPT8)*    
+Joe Thompson, Mohd Abbas, Rose Landroche, Dang Lu, Andrew Speer, Ray Aguilar
 
-Henry Blevins
+*Joshua Kersting (WEBPT8)*  
+Rosbetty Gomez, Tevin Davis, Tim Jeffries, Lesley Banadzem, Wesley Manning, Ron Hughes, Douglas Little
 
-Angelo Deleon
+*Larry Simiyu (WEBPT8)* 
+Steven Sullivan, Cole Gonzales, Tyler Broadway, Oksana Kril, Kraig Williams, James Watts, Whitney Higgins
 
-Leslie Thompson
+*Leslie Thompson (WEBPT8)*  
+Greg Renfro, Adam Penman, Anthony Navarro, Barinder Joseph Singh, Danny Town, Dennis Padiernos, Blaine Blonquist
 
-Timothy Shores
+*Timothy Shores (WEBPT8)*   
+Melissa Bonne-Annee, Tim Mitzen, Isaac Busaleh, Christopher Byrd, Mysti Dyse, Leon Chisum, Kasit Nganthavee
