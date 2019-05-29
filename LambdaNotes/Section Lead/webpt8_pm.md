@@ -32,20 +32,20 @@ Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, 
 # *Irving Duran (WEBPT8)* 
 Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Chris Reynoso, Jenny OBryant, Juanita Purcell, Farjad Fazli
 
-*Jason Aviles (WEBPT8)* 
+#*Jason Aviles (WEBPT8)* 
 John David, Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
 
-*Joseph Alfaro (WEBPT8)*    
+# *Joseph Alfaro (WEBPT8)*    
 Joe Thompson, Mohd Abbas, Rose Landroche, Dang Lu, Andrew Speer, Ray Aguilar
 
-*Joshua Kersting (WEBPT8)*  
+# *Joshua Kersting (WEBPT8)*  
 Rosbetty Gomez, Tevin Davis, Tim Jeffries, Lesley Banadzem, Wesley Manning, Ron Hughes, Douglas Little
 
-*Larry Simiyu (WEBPT8)* 
+# *Larry Simiyu (WEBPT8)* 
 Steven Sullivan, Cole Gonzales, Tyler Broadway, Oksana Kril, Kraig Williams, James Watts, Whitney Higgins
 
-*Leslie Thompson (WEBPT8)*  
+# *Leslie Thompson (WEBPT8)*  
 Greg Renfro, Adam Penman, Anthony Navarro, Barinder Joseph Singh, Danny Town, Dennis Padiernos, Blaine Blonquist
 
-*Timothy Shores (WEBPT8)*   
+# *Timothy Shores (WEBPT8)*   
 Melissa Bonne-Annee, Tim Mitzen, Isaac Busaleh, Christopher Byrd, Mysti Dyse, Leon Chisum, Kasit Nganthavee
