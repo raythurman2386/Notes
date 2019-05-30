@@ -24,7 +24,7 @@ Andrew Bastian, Kris Moore, Charquavis Walker, Aaron Verdine, Adam Maley, Jacob 
 Von Arzu, Trevor Thompson, Jose Medrano, Raymond Moore, Michele Berg, Ali Dervisoglu, Antonio Dinkins, Joe Brown, Amine Dassouki
 
 # *Duc Vu (WEBPT8)*   
-Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Stephanie Otzoy, Nicholas Spain, Ana Wagner, Jamison Rubino
+Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Stephanie Otzoy, Nicholas Spain, Jamison Rubino
 
 # *Elijah Conley (WEBPT8)*    
 Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
@@ -32,7 +32,7 @@ Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, 
 # *Irving Duran (WEBPT8)* 
 Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Chris Reynoso, Jenny OBryant, Juanita Purcell, Farjad Fazli
 
-#*Jason Aviles (WEBPT8)* 
+# *Jason Aviles (WEBPT8)* 
 John David, Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
 
 # *Joseph Alfaro (WEBPT8)*    
@@ -48,4 +48,4 @@ Steven Sullivan, Cole Gonzales, Tyler Broadway, Oksana Kril, Kraig Williams, Jam
 Greg Renfro, Adam Penman, Anthony Navarro, Barinder Joseph Singh, Danny Town, Dennis Padiernos, Blaine Blonquist
 
 # *Timothy Shores (WEBPT8)*   
-Melissa Bonne-Annee, Tim Mitzen, Isaac Busaleh, Christopher Byrd, Mysti Dyse, Leon Chisum, Kasit Nganthavee
+Tim Mitzen, Isaac Busaleh, Christopher Byrd, Mysti Dyse, Leon Chisum, Kasit Nganthavee
