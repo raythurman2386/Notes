@@ -24,7 +24,7 @@ Andrew Bastian, Kris Moore, Charquavis Walker, Aaron Verdine, Adam Maley, Jacob 
 Von Arzu, Trevor Thompson, Jose Medrano, Raymond Moore, Michele Berg, Ali Dervisoglu, Antonio Dinkins, Joe Brown, Amine Dassouki
 
 # *Duc Vu (WEBPT8)*   
-Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Stephanie Otzoy, Nicholas Spain, Jamison Rubino
+Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Sheela Choudhury, Nicholas Spain, Jamison Rubino,
 
 # *Elijah Conley (WEBPT8)*    
 Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
