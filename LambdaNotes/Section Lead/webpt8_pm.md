@@ -1,6 +1,6 @@
 PM/Student Groupings
 # *Aislynn Edmiston (WEBPT8)*
-Carl Redding, Braedon Paramore, Alan Niederauer, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
+Braedon Paramore, Alan Niederauer, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
 
 # *Amber Pittman (WEBPT8)*    
 Daniel Morel, Aaron Spurgeon, Barbara Mayfield, Jacob Calvino, Darren Angus, Ayisha Echevarria, Jesse Tingle, Najja OConnor
@@ -30,7 +30,7 @@ Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Sheela Choudhury
 Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
 
 # *Irving Duran (WEBPT8)* 
-Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Chris Reynoso, Jenny OBryant, Juanita Purcell, Farjad Fazli
+Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Jenny OBryant, Juanita Purcell, Farjad Fazli
 
 # *Jason Aviles (WEBPT8)* 
 John David, Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
