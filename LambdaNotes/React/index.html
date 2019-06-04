@@ -31,24 +31,26 @@
       }
 
       const BartComponent = props => {
-        return (
-          <Component>
-            <h3>Name: {props.bart.name}</h3>
-            <p>Age: {props.bart.age}</p>
-            <p>Identity: {props.bart.identity}</p>
-            <p>Best Friend: {props.bart.best_friend}</p>
-          </Component>
-        )
+          return (
+            <Component>
+              <h3>Name: {props.bart.name}</h3>
+              <p>Age: {props.bart.age}</p>
+              <p>Identity: {props.bart.identity}</p>
+              <p>Best Friend: {props.bart.best_friend}</p>
+            </Component>
+          )
       }
 
       const Component = styled.div`
-        background: linear-gradient(darkred, crimson);
+        background: linear-gradient(150deg, darkred, crimson);
         padding: 2rem;
         border-radius: 5px;
         width: 40%;
         margin: auto;
-        color: #fff;
-        box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.39);
+        color: #ddd;
+        box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+        text-shadow: 4px 4px 12px rgba(0,0,0,0.6);
+        cursor: wait;
       `
 
       
