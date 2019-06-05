@@ -48,4 +48,4 @@ Steven Sullivan, Cole Gonzales, Tyler Broadway, Oksana Kril, Kraig Williams, Jam
 Greg Renfro, Adam Penman, Anthony Navarro, Barinder Joseph Singh, Danny Town, Dennis Padiernos, Blaine Blonquist
 
 # *Timothy Shores (WEBPT8)*   
-Tim Mitzen, Isaac Busaleh, Mysti Dyse, Leon Chisum, Kasit Nganthavee
+Tim Mitzen, Isaac Busaleh, Mysti Dyse, Leon Chisum, Kasit Nganthavee, Khari Baker
