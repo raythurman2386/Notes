@@ -51,14 +51,40 @@
       //     )
       // }
 
+      // const colors = [
+      //   '#FFBAAA',
+      //   '#27576B',
+      //   '#D47F6A',
+      //   '#AA7539',
+      //   '#003D19'
+      // ];
+
+      // let backgroundColor = '';
+      // const colorSelectHandler = () => {
+      //   const color = colors[Math.floor(Math.random() * colors.length)];
+      //   backgroundColor = color;
+      //   return;
+      // }
+      // colorSelectHandler();
+      // const MyDiv = props => <div style={{background:     backgroundColor, color: '#FFFFFF', height:        '200px', width: '200px'}}>Click To Change         Color</div>
+
       const MyProfile = {
         name: 'Raymond Thurman',
         age: 30,
         location: 'Indiana',
         favoriteBook: 'Norse Mythology',
         favoriteBand: ['Five Finger Death Punch', 'ACDC', 'Metallica', 'Journey'],
-        best_friend: 'Sam Chinn',     
+        bestFriends: ['Sam Chinn','Derrick Call', 'Josh Stilger'],     
       }
+
+      let bestFriend = '';
+      const friendSelector = () => {
+       const friend = MyProfile.bestFriends[Math.floor(Math.random() * MyProfile.bestFriends.length)];
+       bestFriend = friend;
+       return;
+      }
+
+      friendSelector();
 
       const MyComponent = props => {
         const bandList = MyProfile.favoriteBand.map(element =>
@@ -66,14 +92,17 @@
         );
 
         return (
+          <div>
           <Component>
             <h3>Name: {props.ray.name}</h3>
             <p>Age: {props.ray.age}</p>
             <p>Location: {props.ray.location}</p>
-            <p>Age: {props.ray.favoriteBook}</p>
-            <p>Best Friend: {props.ray.best_friend}</p>
+            <p>Favorite Book: {props.ray.favoriteBook}</p>
+            <p>Best Friend: {bestFriend}</p>
             <ul>{bandList}</ul>
           </Component>
+          
+          </div>
         )
       }
 
@@ -89,7 +118,7 @@
         cursor: wait;
       `
 
-      
+      // <MyComponent ray={MyProfile} />
 
 
     ReactDOM.render(<MyComponent ray={MyProfile} />, document.getElementById('element'));
