@@ -30,15 +30,51 @@
         best_friend: 'Milhouse Van Houten',
       }
 
-      const BartComponent = props => {
-          return (
-            <Component>
-              <h3>Name: {props.bart.name}</h3>
-              <p>Age: {props.bart.age}</p>
-              <p>Identity: {props.bart.identity}</p>
-              <p>Best Friend: {props.bart.best_friend}</p>
-            </Component>
-          )
+      // const BartComponent = props => {
+      //   const familyList = BartProfile.family.map(element => 
+      //     <li>{element}</li>
+      //   );
+
+      //   const phraseList = BartProfile.catchphrases.map(element =>
+      //     <li>{element}</li>
+      //   );
+
+      //     return (
+      //       <Component>
+      //         <h3>Name: {props.bart.name}</h3>
+      //         <p>Age: {props.bart.age}</p>
+      //         <p>Identity: {props.bart.identity}</p>
+      //         <ul>Family: {familyList}</ul>
+      //         <ul>Catch Phrase: {phraseList}</ul>
+      //         <p>Best Friend: {props.bart.best_friend}</p>
+      //       </Component>
+      //     )
+      // }
+
+      const MyProfile = {
+        name: 'Raymond Thurman',
+        age: 30,
+        location: 'Indiana',
+        favoriteBook: 'Norse Mythology',
+        favoriteBand: ['Five Finger Death Punch', 'ACDC', 'Metallica', 'Journey'],
+        best_friend: 'Sam Chinn',     
+      }
+
+      const MyComponent = props => {
+        const bandList = MyProfile.favoriteBand.map(element =>
+          <li>{element}</li>
+        );
+
+        return (
+          <Component>
+            <h3>Name: {props.ray.name}</h3>
+            <p>Age: {props.ray.age}</p>
+            <p>Location: {props.ray.location}</p>
+            <p>Age: {props.ray.favoriteBook}</p>
+            <p>Best Friend: {props.ray.best_friend}</p>
+            <ul>{bandList}</ul>
+          </Component>
+        )
       }
 
       const Component = styled.div`
@@ -56,7 +92,7 @@
       
 
 
-    ReactDOM.render(<BartComponent bart={BartProfile} />, document.getElementById('element'));
+    ReactDOM.render(<MyComponent ray={MyProfile} />, document.getElementById('element'));
   </script>
 </body>
 
