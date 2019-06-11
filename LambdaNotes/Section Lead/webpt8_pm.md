@@ -15,7 +15,7 @@ Sara Pettigrew, Khyam Arain, Charles Wallace, Ariel Rodriguez, Kenneth Boelter, 
 Carla Johnson, Roberto Ramirez, Bradley Pitts, Malachai Woodiwiss, Jules Pierre-Louis, Nicholas Gallucci, Kevin Carr
 
 # *Daniel Sockness (WEBPT8)*  
-Jose Talancha, Rabah Babaci, Michael Lowe, Kyle Leonard, Daniel Martin, Md Alam, Darion Suggs
+Jose Talancha, Rabah Babaci, Michael Lowe, Kyle Leonard, Daniel Martin, Md Alam, Darion Suggs,
 
 # *Derrick Mei (WEBPT8)*  
 Andrew Bastian, Kris Moore, Charquavis Walker, Aaron Verdine, Adam Maley, Jacob Williams, Tammy Fisher
@@ -27,13 +27,13 @@ Von Arzu, Trevor Thompson, Jose Medrano, Raymond Moore, Michele Berg, Ali Dervis
 Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Sheela Choudhury, Nicholas Spain, Jamison Rubino,
 
 # *Elijah Conley (WEBPT8)*    
-Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Jordan Judd, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
+Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
 
 # *Irving Duran (WEBPT8)* 
 Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Jenny OBryant, Juanita Purcell, Farjad Fazli
 
 # *Jason Aviles (WEBPT8)* 
-John David, Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
+Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
 
 # *Joseph Alfaro (WEBPT8)*    
 Joe Thompson, Mohd Abbas, Rose Landroche, Dang Lu, Andrew Speer, Ray Aguilar

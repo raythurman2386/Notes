@@ -21,4 +21,4 @@
 
     DATA FLOWS DOWNWARD IN A REACT APPLICATION, FROM STATE TO PROPS
 
-    
+  To ensure that data can be dynamic we need to pass it into our component as a prop. All React Components have access to the props keyword. To grad any dynamic data that we want rendered to our component we use props.
