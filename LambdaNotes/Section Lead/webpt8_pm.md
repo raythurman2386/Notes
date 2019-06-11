@@ -1,6 +1,6 @@
 PM/Student Groupings
 # *Aislynn Edmiston (WEBPT8)*
-Braedon Paramore, Alan Niederauer, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
+Braedon Paramore, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
 
 # *Amber Pittman (WEBPT8)*    
 Daniel Morel, Aaron Spurgeon, Barbara Mayfield, Jacob Calvino, Darren Angus, Ayisha Echevarria, Jesse Tingle, Najja OConnor
@@ -9,7 +9,7 @@ Daniel Morel, Aaron Spurgeon, Barbara Mayfield, Jacob Calvino, Darren Angus, Ayi
 Humayun Rashid, Ian Carreras, Christine Fletcher, Stephen Freeman, Clifton Hodges, Angela Flowers, Ruth Poliakon, Tony Odele
 
 # *Billy Baney (WEBPT8)*  
-Renz Jayson Mallari, Sara Pettigrew, Khyam Arain, Charles Wallace, Ariel Rodriguez, Kenneth Boelter, Michael Parker, Ramy Metry
+Sara Pettigrew, Khyam Arain, Charles Wallace, Ariel Rodriguez, Kenneth Boelter, Michael Parker, Ramy Metry
 
 # *Christopher Adams (WEBPT8)*    
 Carla Johnson, Roberto Ramirez, Bradley Pitts, Malachai Woodiwiss, Jules Pierre-Louis, Nicholas Gallucci, Kevin Carr
