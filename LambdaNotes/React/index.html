@@ -68,57 +68,89 @@
       // colorSelectHandler();
       // const MyDiv = props => <div style={{background:     backgroundColor, color: '#FFFFFF', height:        '200px', width: '200px'}}>Click To Change         Color</div>
 
-      const MyProfile = {
-        name: 'Raymond Thurman',
-        age: 30,
-        location: 'Indiana',
-        favoriteBook: 'Norse Mythology',
-        favoriteBand: ['Five Finger Death Punch', 'ACDC', 'Metallica', 'Journey'],
-        bestFriends: ['Sam Chinn','Derrick Call', 'Josh Stilger'],     
-      }
+      // const MyProfile = {
+      //   name: 'Raymond Thurman',
+      //   age: 30,
+      //   location: 'Indiana',
+      //   favoriteBook: 'Norse Mythology',
+      //   favoriteBand: ['Five Finger Death Punch', 'ACDC', 'Metallica', 'Journey'],
+      //   bestFriends: ['Sam Chinn','Derrick Call', 'Josh Stilger'],     
+      // }
 
-      let bestFriend = '';
-      const friendSelector = () => {
-       const friend = MyProfile.bestFriends[Math.floor(Math.random() * MyProfile.bestFriends.length)];
-       bestFriend = friend;
-       return;
-      }
+      // let bestFriend = '';
+      // const friendSelector = () => {
+      //  const friend = MyProfile.bestFriends[Math.floor(Math.random() * MyProfile.bestFriends.length)];
+      //  bestFriend = friend;
+      //  return;
+      // }
 
-      friendSelector();
+      // friendSelector();
 
-      const MyComponent = props => {
-        const bandList = MyProfile.favoriteBand.map(element =>
-          <li>{element}</li>
-        );
+      // const MyComponent = props => {
+      //   const bandList = MyProfile.favoriteBand.map(element =>
+      //     <li>{element}</li>
+      //   );
 
-        return (
-          <div>
-          <Component>
-            <h3>Name: {props.ray.name}</h3>
-            <p>Age: {props.ray.age}</p>
-            <p>Location: {props.ray.location}</p>
-            <p>Favorite Book: {props.ray.favoriteBook}</p>
-            <p>Best Friend: {bestFriend}</p>
-            <ul>{bandList}</ul>
-          </Component>
+      //   return (
+      //     <div>
+      //     <Component>
+      //       <h3>Name: {props.ray.name}</h3>
+      //       <p>Age: {props.ray.age}</p>
+      //       <p>Location: {props.ray.location}</p>
+      //       <p>Favorite Book: {props.ray.favoriteBook}</p>
+      //       <p>Best Friend: {bestFriend}</p>
+      //       <ul>{bandList}</ul>
+      //     </Component>
           
-          </div>
-        )
-      }
+      //     </div>
+      //   )
+      // }
 
-      const Component = styled.div`
-        background: linear-gradient(150deg, darkred, crimson);
-        padding: 2rem;
-        border-radius: 5px;
-        width: 40%;
-        margin: auto;
-        color: #ddd;
-        box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
-        text-shadow: 4px 4px 12px rgba(0,0,0,0.6);
-        cursor: wait;
-      `
+      // const Component = styled.div`
+      //   background: linear-gradient(150deg, darkred, crimson);
+      //   padding: 2rem;
+      //   border-radius: 5px;
+      //   width: 40%;
+      //   margin: auto;
+      //   color: #ddd;
+      //   box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+      //   text-shadow: 4px 4px 12px rgba(0,0,0,0.6);
+      //   cursor: wait;
+      // `
 
       // <MyComponent ray={MyProfile} />
+
+const simpsonData = {
+  name: "Orville Simpson",
+  spouse: "Yuma Hickman",
+  children: [
+    {
+      name: "Abraham Simpson",
+      spouse: "Mona",
+      children: [
+        {
+          name: "Homer Simpson",
+          spouse: "Marge Bouvier",
+          children: [
+            {
+              name: "Bart Simpson"
+            },
+            {
+              name: "Lisa Simpson"
+            },
+            {
+              name: "Maggie Simpson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+const Parent = props => {
+  return <h1>Parent: {props.name}</h1>;
+}
 
 
     ReactDOM.render(<MyComponent ray={MyProfile} />, document.getElementById('element'));
