@@ -1,51 +1,152 @@
 PM/Student Groupings
-# *Aislynn Edmiston (WEBPT8)*
-Braedon Paramore, Nick Durbin, Khaleb Wilsonw, Robert Allen, Elliot Feeny, Jay Leach
+# Aislynn Edmiston
+  Carl Redding
+  Braedon Paramore
+  Nick Durbin
+  Khaleb Wilsonw
+  Robert Allen
+  Elliot Feeny
+  Jay Leach
 
-# *Amber Pittman (WEBPT8)*    
-Daniel Morel, Aaron Spurgeon, Barbara Mayfield, Jacob Calvino, Darren Angus, Ayisha Echevarria, Jesse Tingle, Najja OConnor
+# Amber Pittman
+  Daniel Morel
+  Aaron Spurgeon
+  Barbara Mayfield
+  Jacob Calvino
+  Darren Angus
+  Ayisha Echevarria
+  Jesse Tingle
+  Najja OConnor
 
-# *Angelo Deleon (WEBPT8)*
-Humayun Rashid, Ian Carreras, Christine Fletcher, Stephen Freeman, Clifton Hodges, Angela Flowers, Ruth Poliakon, Tony Odele
+# Angelo Deleon
+  Humayun Rashid
+  Ian Carreras
+  Christine Fletcher
+  Stephen Freeman
+  Clifton Hodges
+  Ruth Poliakon
+  Tony Odele
 
-# *Billy Baney (WEBPT8)*  
-Sara Pettigrew, Khyam Arain, Charles Wallace, Ariel Rodriguez, Kenneth Boelter, Michael Parker, Ramy Metry
+# Billy Baney
+  Renz Jayson Mallari
+  Sara Pettigrew
+  Khyam Arain
+  Charles Wallace
+  Ariel Rodriguez
+  Kenneth Boelter
+  Michael Parker
+  Ramy Metry
 
-# *Christopher Adams (WEBPT8)*    
-Carla Johnson, Roberto Ramirez, Bradley Pitts, Malachai Woodiwiss, Jules Pierre-Louis, Nicholas Gallucci, Kevin Carr
+# Christopher Adams
+  Carla Johnson
+  Roberto Ramirez
+  Bradley Pitts
+  Malachai Woodiwiss
+  Jules Pierre-Louis
+  Nicholas Gallucci
+  Kevin Carr
+  Kadeem Beckford
 
-# *Daniel Sockness (WEBPT8)*  
-Jose Talancha, Rabah Babaci, Michael Lowe, Kyle Leonard, Daniel Martin, Md Alam, Darion Suggs,
+# Daniel Sockness
+  Jose Talancha
+  Michael Lowe
+  Kyle Leonard
+  Daniel Martin
+  Md Alam
+  Darion Suggs
+  Alfred Wellman
 
-# *Derrick Mei (WEBPT8)*  
-Andrew Bastian, Kris Moore, Charquavis Walker, Aaron Verdine, Adam Maley, Jacob Williams, Tammy Fisher
+# Derrick Mei
+  Andrew Bastian
+  Charquavis Walker
+  Aaron Verdine
+  Adam Maley
+  Jacob Williams
+  Tammy Fisher
+  Junior Tavarez
+  Lindsey Gibert
 
-# *Donald Whitely (WEBPT8)*   
-Von Arzu, Trevor Thompson, Jose Medrano, Raymond Moore, Michele Berg, Ali Dervisoglu, Antonio Dinkins, Joe Brown, Amine Dassouki
+# Donald Whitely
+  Von Arzu
+  Trevor Thompson
+  Jose Medrano
+  Michele Berg
+  Ali Dervisoglu
+  Antonio Dinkins
+  Amine Dassouki
+  Joe Brown
 
-# *Duc Vu (WEBPT8)*   
-Jabar Brasjer, Vivienne Johnson, Jerome Haynes, Dakota Barnett, Sheela Choudhury, Nicholas Spain, Jamison Rubino,
+# Elijah Conley
+  Demi Fiallos
+  Raul Ortiz
+  Vladislav Burlutskiy
+  Eli Rubin-Calvert
+  Mikey Nichols
+  Warren Rawlings
+  Vivienne Johnson
+  Jabar Brasjer
 
-# *Elijah Conley (WEBPT8)*    
-Demi Fiallos, Raul Ortiz, Vladislav Burlutskiy, Eli Rubin-Calvert, Mikey Nichols, Warren Rawlings
+# Irving Duran
+  Steven Vandenburg
+  Stephen Tanksley
+  Dominique Rocha
+  Jenny OBryant
+  Juanita Purcell
+  Farjad Fazli
+  Jamison Rubino
+  Jerome Haynes
 
-# *Irving Duran (WEBPT8)* 
-Steven Vandenburg, Stephen Tanksley, Dominique Rocha, Jenny OBryant, Juanita Purcell, Farjad Fazli
+# Jason Aviles
+  Bradley Gonzalez
+  Onesimus Jappah
+  Dallas James
+  Naqibullah Noory
+  Charles Montoya
+  Richard Esquivel
+  Robert Ramos Jr
 
-# *Jason Aviles (WEBPT8)* 
-Bradley Gonzalez, Onesimus Jappah, Dallas James, Naqibullah Noory, Charles Montoya, Richard Esquivel, Robert Ramos Jr.
+# Joseph Alfaro
+  Joe Thompson
+  Mohd Abbas
+  Rose Landroche
+  Dang Lu
+  Andrew Speer
+  Ray Aguilar
+  Asia DeWitt-Nicholas
+  Ray Lomeli
 
-# *Joseph Alfaro (WEBPT8)*    
-Joe Thompson, Mohd Abbas, Rose Landroche, Dang Lu, Andrew Speer, Ray Aguilar
+# Joshua Kersting
+  Rosbetty Gomez
+  Tevin Davis
+  Tim Jeffries
+  Lesley Banadzem
+  Wesley Manning
+  Ron Hughes
+  Douglas Little
 
-# *Joshua Kersting (WEBPT8)*  
-Rosbetty Gomez, Tevin Davis, Tim Jeffries, Lesley Banadzem, Wesley Manning, Ron Hughes, Douglas Little
+# Larry Simiyu
+  Steven Sullivan
+  Cole Gonzales
+  Tyler Broadway
+  Oksana Kril
+  Kraig Williams
+  Whitney Higgins
 
-# *Larry Simiyu (WEBPT8)* 
-Steven Sullivan, Cole Gonzales, Tyler Broadway, Oksana Kril, Kraig Williams, James Watts, Whitney Higgins
+# Leslie Thompson
+  Greg Renfro
+  Adam Penman
+  Anthony Navarro
+  Barinder Joseph Singh
+  Danny Town
+  Dennis Padiernos
+  Kevin Phan
 
-# *Leslie Thompson (WEBPT8)*  
-Greg Renfro, Adam Penman, Barinder Joseph Singh, Danny Town, Dennis Padiernos, Blaine Blonquist
-
-# *Timothy Shores (WEBPT8)*   
-Tim Mitzen, Isaac Busaleh, Mysti Dyse, Leon Chisum, Kasit Nganthavee, Khari Baker
+# Timothy Shores 
+  Tim Mitzen
+  Isaac Busaleh
+  Mysti Dyse
+  Leon Chisum
+  Kasit Nganthavee
+  Loralie Flint
+  Remington Shock
+  Sheela Choudhury
