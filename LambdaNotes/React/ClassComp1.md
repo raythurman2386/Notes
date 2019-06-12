@@ -39,3 +39,65 @@
   state is mutable
 
   Can be changed by the `setState` method
+
+
+# Functional Components vs. Class Components
+  Functional components are simpler and easier to test in comparison to class components. However, both of them have pros and cons and today you'll learn the differences and when to use which type of components.
+
+# Functional Components
+  These are simpler than class components and they provide less functionality.
+
+    import React from "react";
+    import PropTypes from "prop-types";
+
+    const Person = ({firstName, lastName}) => (
+      <div>
+        <h1>{firstName} {lastName}</h1>
+      </div>
+    );
+
+    Person.propTypes = {
+      firstName: PropTypes.string.isRequired,
+      lastName: PropTypes.string.isRequired
+    }
+
+    export default Person;
+
+  Functional components are basically just the render function of a class component. You can access `props` but they can't have `state` 
+
+  You also can't use `life cycle methods` with functional components.
+
+  Also with functional components you do not have access to the `this` keyword.
+
+# Class Components
+  Class components make use of the ES6 class syntax. Since classes can have methods, these components can make use of `life cycle methods` like `componentWillMount` and `componentDidMount`.
+
+    import React, { Component } from "react";
+    import PropTypes from "prop-types";
+
+    class Person extends Component {
+      render(){
+        return(
+          <div>
+            <h1>
+              {this.props.firstName} {this.props.lastName}
+            </h1>
+          </div>
+        );
+      }
+    }
+
+    Person.PropTypes = {
+      firstName: PropTypes.string.isRequired,
+      lastName: PropTypes.string.isRequired
+    }
+
+    export default Person;
+
+  Here you have to use this to access `props`
+
+  Presentational components seem a bit more lightweight, they are simpler and a bit easier to read. Most of the components you will write don't need state.
+
+  Presentational components focus on the UI and don't have their own `state`, therefore I create them as `functional components`.
+
+  Container components need their own `state` or make use of `life cycle methods` therefore I create them as `class components`
