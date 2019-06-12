@@ -101,3 +101,9 @@
   Presentational components focus on the UI and don't have their own `state`, therefore I create them as `functional components`.
 
   Container components need their own `state` or make use of `life cycle methods` therefore I create them as `class components`
+
+
+# State
+  Remember that `state` is just an object that we have access to which lives on the `class components constructor`.
+
+  We can then take this state and pass it around as `props`
