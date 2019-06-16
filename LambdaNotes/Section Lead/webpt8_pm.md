@@ -21,7 +21,6 @@ PM/Student Groupings
 # Angelo Deleon
   Humayun Rashid
   Ian Carreras
-  Christine Fletcher
   Stephen Freeman
   Clifton Hodges
   Ruth Poliakon
