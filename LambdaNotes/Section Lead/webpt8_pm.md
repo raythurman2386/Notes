@@ -7,6 +7,7 @@ PM/Student Groupings
   Robert Allen
   Elliot Feeny
   Jay Leach
+  Juanita Purcell
 
 # Amber Pittman
   Daniel Morel
@@ -27,7 +28,6 @@ PM/Student Groupings
   Tony Odele
 
 # Billy Baney
-  Renz Jayson Mallari
   Sara Pettigrew
   Khyam Arain
   Charles Wallace
@@ -37,7 +37,6 @@ PM/Student Groupings
   Ramy Metry
 
 # Christopher Adams
-  Carla Johnson
   Roberto Ramirez
   Bradley Pitts
   Malachai Woodiwiss
@@ -48,7 +47,6 @@ PM/Student Groupings
 
 # Daniel Sockness
   Jose Talancha
-  Michael Lowe
   Kyle Leonard
   Daniel Martin
   Md Alam
@@ -61,8 +59,6 @@ PM/Student Groupings
   Aaron Verdine
   Adam Maley
   Jacob Williams
-  Tammy Fisher
-  Junior Tavarez
   Lindsey Gibert
 
 # Donald Whitely
@@ -82,15 +78,12 @@ PM/Student Groupings
   Eli Rubin-Calvert
   Mikey Nichols
   Warren Rawlings
-  Vivienne Johnson
-  Jabar Brasjer
 
 # Irving Duran
   Steven Vandenburg
   Stephen Tanksley
   Dominique Rocha
   Jenny OBryant
-  Juanita Purcell
   Farjad Fazli
   Jamison Rubino
   Jerome Haynes
@@ -134,7 +127,6 @@ PM/Student Groupings
 # Leslie Thompson
   Greg Renfro
   Adam Penman
-  Anthony Navarro
   Barinder Joseph Singh
   Danny Town
   Dennis Padiernos
