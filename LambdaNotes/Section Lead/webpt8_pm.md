@@ -10,7 +10,6 @@ PM/Student Groupings
   Juanita Purcell
 
 # Amber Pittman
-  Daniel Morel
   Aaron Spurgeon
   Barbara Mayfield
   Jacob Calvino
@@ -51,7 +50,6 @@ PM/Student Groupings
   Daniel Martin
   Md Alam
   Darion Suggs
-  Alfred Wellman
 
 # Derrick Mei
   Andrew Bastian
@@ -62,10 +60,8 @@ PM/Student Groupings
   Lindsey Gibert
 
 # Donald Whitely
-  Von Arzu
   Trevor Thompson
   Jose Medrano
-  Michele Berg
   Ali Dervisoglu
   Antonio Dinkins
   Amine Dassouki
@@ -85,7 +81,6 @@ PM/Student Groupings
   Dominique Rocha
   Jenny OBryant
   Farjad Fazli
-  Jamison Rubino
   Jerome Haynes
 
 # Jason Aviles
