@@ -46,4 +46,25 @@
   Hooks are functions that let you 'hook' into React state and lifecycle features from function components. 
   Hooks don't work insideclasses -- they let you use React without classes. (We don't recommend rewriting your existing components overnight but you can start using Hooks in the new ones)
 
-  React provides a few built-in Hooks like useState. You can also create your own Hooks to reuse stateful behavior between different components. s
+  React provides a few built-in Hooks like useState. You can also create your own Hooks to reuse stateful behavior between different components. 
+
+# Effect Hook
+  The Effect Hook, useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in React classes, but unified into a single API.
+
+      function Example() {
+        const [count, setCount] = useState(0);
+
+        // Similar to componentDidMount and componentDidUpdate:
+        useEffect(() => {
+          document.title  = 'You clicked ${count} times';
+        });
+
+        return (
+          <div>
+            <p>You clicked {count} times</p>
+            <button onClick={ () => setCount( count + 1 ) }>
+              Click Me
+            </button>
+          </div>
+        )
+      }
