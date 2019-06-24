@@ -29,3 +29,21 @@
 
 # Hooks At a Glance
   Hooks are backwards-compatible. 
+  The only argument to useState is the initial state. In the example at the top it is 0 because our counter starts from zero. 
+    Note that unlike this.state, the state here doesn't have to be an object, although it can be if you want. The initial state argument is only used during the first render.
+
+# Declaring Multiple state variables
+
+    function ExampleWithManyStates() {
+      const [age, setAge] = useState(42);
+      const [fruit, setFruit] = useState('banana');
+      const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
+    }
+
+  These names aren't a part of the useState API. Instead, React assumes that if you call useState many times, you do it in the same order during every render.
+
+# What is a Hook
+  Hooks are functions that let you 'hook' into React state and lifecycle features from function components. 
+  Hooks don't work insideclasses -- they let you use React without classes. (We don't recommend rewriting your existing components overnight but you can start using Hooks in the new ones)
+
+  React provides a few built-in Hooks like useState. You can also create your own Hooks to reuse stateful behavior between different components. s
