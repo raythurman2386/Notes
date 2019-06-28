@@ -3,7 +3,6 @@ PM/Student Groupings
   Carl Redding
   Braedon Paramore
   Nick Durbin
-  Khaleb Wilsonw
   Robert Allen
   Elliot Feeny
   Jay Leach
@@ -65,13 +64,11 @@ PM/Student Groupings
   Ali Dervisoglu
   Antonio Dinkins
   Amine Dassouki
-  Joe Brown
 
 # Elijah Conley
   Demi Fiallos
   Raul Ortiz
   Vladislav Burlutskiy
-  Eli Rubin-Calvert
   Mikey Nichols
   Warren Rawlings
 
@@ -135,4 +132,3 @@ PM/Student Groupings
   Kasit Nganthavee
   Loralie Flint
   Remington Shock
-  Sheela Choudhury
