@@ -13,7 +13,7 @@ PM/Student Groupings
   Barbara Mayfield
   Jacob Calvino
   Darren Angus
-  Ayisha Echevarria
+  Diana Maqque
   Jesse Tingle
   Najja OConnor
 
@@ -24,6 +24,7 @@ PM/Student Groupings
   Clifton Hodges
   Ruth Poliakon
   Tony Odele
+  Alexis Kim
 
 # Billy Baney
   Sara Pettigrew
@@ -35,6 +36,7 @@ PM/Student Groupings
   Ramy Metry
 
 # Christopher Adams
+  Carla Johnson
   Roberto Ramirez
   Bradley Pitts
   Malachai Woodiwiss
@@ -49,6 +51,7 @@ PM/Student Groupings
   Daniel Martin
   Md Alam
   Darion Suggs
+  Ian Castillo
 
 # Derrick Mei
   Andrew Bastian
@@ -56,6 +59,7 @@ PM/Student Groupings
   Aaron Verdine
   Adam Maley
   Jacob Williams
+  Tammy Fisher
   Lindsey Gibert
 
 # Donald Whitely
@@ -64,6 +68,8 @@ PM/Student Groupings
   Ali Dervisoglu
   Antonio Dinkins
   Amine Dassouki
+  Benjamin Earley
+  Jabari Finney
 
 # Elijah Conley
   Demi Fiallos
@@ -71,6 +77,7 @@ PM/Student Groupings
   Vladislav Burlutskiy
   Mikey Nichols
   Warren Rawlings
+  Johanna Rendon
 
 # Irving Duran
   Steven Vandenburg
@@ -78,20 +85,19 @@ PM/Student Groupings
   Dominique Rocha
   Jenny OBryant
   Farjad Fazli
+  Jamison Rubino
   Jerome Haynes
 
 # Jason Aviles
-  Bradley Gonzalez
-  Onesimus Jappah
   Dallas James
   Naqibullah Noory
   Charles Montoya
   Richard Esquivel
   Robert Ramos Jr
+  Orlando Rivera Jr.
 
 # Joseph Alfaro
   Joe Thompson
-  Mohd Abbas
   Rose Landroche
   Dang Lu
   Andrew Speer
@@ -114,7 +120,8 @@ PM/Student Groupings
   Tyler Broadway
   Oksana Kril
   Kraig Williams
-  Whitney Higgins
+  Chris Mahlobo
+  Sara Alkhamri
 
 # Leslie Thompson
   Greg Renfro
