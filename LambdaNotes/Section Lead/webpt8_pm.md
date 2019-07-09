@@ -37,7 +37,6 @@ PM/Student Groupings
   Ramy Metry
 
 # Christopher Adams
-  Carla Johnson
   Roberto Ramirez
   Bradley Pitts
   Malachai Woodiwiss
