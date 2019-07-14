@@ -56,7 +56,7 @@
         console.log(newString);
       })
 
-  Now lets make another function that we can use to return yet another promise. this is where some of the `then chaining` starts to really come in hady. We're going to have to refactor our code, only where we're calling `time machine`
+  Now lets make another function that we can use to return yet another promise. this is where some of the `then chaining` starts to really come in handy. We're going to have to refactor our code, only where we're calling `time machine`
 
     const parseTime = ms => {
       return new Promise((resolve, reject) => {
@@ -71,4 +71,66 @@
       .then(parseTime)
       .then(timePassed => {
         console.log(timePassed);
+      })
+
+# HTTP
+
+  HTTP is a `network protocol`, a set of rules that govern the way web clients, like a browser, communicate with web servers over the internet.
+
+  Developers need to know what HTTP Methods are and how they are used to perform CRUD `(Create, Read, Update, Delete)` operations on server resources and what HTTP status codes are and what they are used for
+
+  `HTTP Methods` provide a common language, or nomenclature that the client can use to let the server know what operation it wants to perform.
+
+  When a client needs to ask a server for info it should do a `GET` request specifying a URL that points to the resource.
+
+  A `POST` request is used to ask the server to add or create new resources.
+
+  The method used by the client to ask the server to make changes to a specific resource is `PUT`
+
+  To remove or delete data from the server the client should send a `DELETE` request.
+
+  `HTTP Status Codes` are used to indicate if a request has been successful or not and why.
+
+# Axios
+
+  `axios` is a javascript library used to send HTTP requests to servers. It is not necessary to do this, but it makes things much easier. All server requests are asynchronous, `axios` uses Promises. Once you get the basic pattern down `axios` is incredibly easy to use.
+
+  This needs added into the head of the HTML document to use axios
+
+  `<script src="https://unpkg.com/axios/dist/axios.min.js"></script>`
+
+    axios.get(url)
+
+  axios.get will return a Promis to us. This tells us that it is busy getting the data and will return in a moment. As with all promises, we will use `.then` and `.catch` to deal with the data.
+
+    axios.get('http://serverlocation.com/data')
+      .then( response => {
+        // deal with the response data in here
+      })
+      .catch( err => {
+        // deal with the error in here
+      })
+
+  Lets see it all in action
+
+  First we will build our component creator function
+
+    function buttonCreator(buttonTitle){
+      let newButton = document.createElement('button');
+      newButton.textContent - buttonTitle;
+      newButton.classList.add('button');
+
+      return newButton;
+    }
+
+    axios.get('http://fakeserver.com/data')
+      .then( response => {
+        // remember response is an object, response.data is an array
+        response.data.forEach( item => {
+          let button = buttonCreator(item);
+          parend.appendChild(button);
+        })
+      })
+      .catch(error => {
+        console.leg("Error: ", err);
       })
