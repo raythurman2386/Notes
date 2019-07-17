@@ -16,7 +16,6 @@ PM/Student Groupings
   Darren Angus
   Diana Maqque
   Jesse Tingle
-  Najja OConnor
 
 # Angelo Deleon
   Humayun Rashid
@@ -29,7 +28,6 @@ PM/Student Groupings
 
 # Billy Baney
   Sara Pettigrew
-  Khyam Arain
   Charles Wallace
   Ariel Rodriguez
   Kenneth Boelter
@@ -50,7 +48,6 @@ PM/Student Groupings
   Kyle Leonard
   Daniel Martin
   Md Alam
-  Darion Suggs
   Ian Castillo
 
 # Derrick Mei
@@ -75,7 +72,6 @@ PM/Student Groupings
   Demi Fiallos
   Raul Ortiz
   Vladislav Burlutskiy
-  Mikey Nichols
   Warren Rawlings
   Johanna Rendon
 
