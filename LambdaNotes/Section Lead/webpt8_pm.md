@@ -1,137 +1,130 @@
 PM/Student Groupings
 # Aislynn Edmiston
-  Carl Redding
-  Braedon Paramore
-  Nick Durbin
-  Robert Allen
-  Elliot Feeny
-  Jay Leach
-  Juanita Purcell
+  Carl Redding - project
+  Braedon Paramore *****
+  Nick Durbin - project
+  Robert Allen - project
+  Elliot Feeny - project
+  Jay Leach - project
+  Juanita Purcell - project
   
 
 # Amber Pittman
-  Aaron Spurgeon
-  Barbara Mayfield
-  Jacob Calvino
-  Darren Angus
-  Diana Maqque
-  Jesse Tingle
+  Aaron Spurgeon - project
+  Barbara Mayfield - project
+  Jacob Calvino - project
+  Darren Angus - project
+  Diana Maqque - project
+  Jesse Tingle - project
 
 # Angelo Deleon
-  Humayun Rashid
-  Ian Carreras
-  Stephen Freeman
-  Clifton Hodges
-  Ruth Poliakon
-  Tony Odele
-  Alexis Kim
+  Ian Carreras - project
+  Clifton Hodges - project
+  Ruth Poliakon - project
+  Tony Odele - project
+  Alexis Kim - n/a
 
 # Billy Baney
-  Sara Pettigrew
-  Charles Wallace
-  Ariel Rodriguez
-  Kenneth Boelter
-  Michael Parker
-  Ramy Metry
+  Sara Pettigrew - project
+  Charles Wallace - project
+  Ariel Rodriguez - project
+  Kenneth Boelter - project
+  Michael Parker -project
+  Ramy Metry - project
 
 # Christopher Adams
-  Roberto Ramirez
-  Bradley Pitts
-  Malachai Woodiwiss
-  Jules Pierre-Louis
-  Nicholas Gallucci
-  Kevin Carr
-  Kadeem Beckford
+  Roberto Ramirez - project
+  Bradley Pitts - project
+  Malachai Woodiwiss - project
+  Jules Pierre-Louis - project
+  Nicholas Gallucci - project
+  Kevin Carr - project
+  Kadeem Beckford - project
 
 # Daniel Sockness
-  Jose Talancha
-  Kyle Leonard
-  Daniel Martin
-  Md Alam
-  Ian Castillo
+  Jose Talancha -  *****
+  Kyle Leonard - project
+  Daniel Martin - project
+  Md Alam - project
+  Ian Castillo - project
 
 # Derrick Mei
-  Andrew Bastian
-  Charquavis Walker
-  Aaron Verdine
-  Adam Maley
-  Jacob Williams
-  Tammy Fisher
-  Lindsey Gibert
+  Andrew Bastian - project
+  Charquavis Walker - project
+  Aaron Verdine - project
+  Adam Maley - project
+  Jacob Williams - project
+  Tammy Fisher - project
 
 # Donald Whitely
-  Trevor Thompson
-  Jose Medrano
-  Ali Dervisoglu
-  Antonio Dinkins
-  Amine Dassouki
-  Benjamin Earley
-  Jabari Finney
+  Trevor Thompson - project
+  Jose Medrano - project 
+  Ali Dervisoglu - project
+  Antonio Dinkins - project
+  Amine Dassouki - project
+  Benjamin Earley - project
+  Jabari Finney - *****
 
 # Elijah Conley
-  Demi Fiallos
-  Raul Ortiz
-  Vladislav Burlutskiy
-  Warren Rawlings
-  Johanna Rendon
+  Raul Ortiz - project
+  Vladislav Burlutskiy - project
+  Warren Rawlings - project
+  Johanna Rendon - project
+  Jose Gonzalez - project
 
 # Irving Duran
-  Steven Vandenburg
-  Stephen Tanksley
-  Dominique Rocha
-  Jenny OBryant
-  Farjad Fazli
-  Jamison Rubino
-  Jerome Haynes
+  Steven Vandenburg - project
+  Stephen Tanksley - project
+  Dominique Rocha - *****
+  Jenny OBryant - project
+  Farjad Fazli - project
+  Jerome Haynes - project
 
 # Jason Aviles
-  Dallas James
-  Naqibullah Noory
-  Charles Montoya
-  Richard Esquivel
-  Robert Ramos Jr
-  Orlando Rivera Jr.
+  Dallas James - *****
+  Naqibullah Noory - project
+  Charles Montoya - project
+  Richard Esquivel - ****
+  Robert Ramos Jr - ****
+  Orlando Rivera Jr. - ****
 
 # Joseph Alfaro
-  Joe Thompson
-  Rose Landroche
-  Dang Lu
-  Andrew Speer
-  Ray Aguilar
-  Asia DeWitt-Nicholas
-  Ray Lomeli
+  Joe Thompson - project
+  Rose Landroche - project 
+  Dang Lu - project
+  Andrew Speer - project
+  Ray Aguilar - project
+  Ray Lomeli - project
 
 # Joshua Kersting
-  Rosbetty Gomez
-  Tevin Davis
-  Tim Jeffries
-  Lesley Banadzem
-  Wesley Manning
-  Ron Hughes
-  Douglas Little
+  Rosbetty Gomez - project
+  Tevin Davis - project
+  Tim Jeffries - project 
+  Lesley Banadzem - ****
+  Wesley Manning - project
+  Ron Hughes - project
+  Douglas Little - project
 
 # Larry Simiyu
-  Steven Sullivan
-  Cole Gonzales
-  Tyler Broadway
-  Oksana Kril
-  Kraig Williams
-  Chris Mahlobo
-  Sara Alkhamri
+  Steven Sullivan - project
+  Cole Gonzales - project
+  Tyler Broadway - project
+  Oksana Kril - project
+  Chris Mahlobo - project
+  Sara Alkhamri - project
 
 # Leslie Thompson
-  Greg Renfro
-  Adam Penman
-  Barinder Joseph Singh
-  Danny Town
-  Dennis Padiernos
-  Kevin Phan
+  Greg Renfro ****
+  Adam Penman ****
+  Barinder Joseph Singh ****
+  Danny Town ****
+  Dennis Padiernos ****
+  Kevin Phan - project
 
 # Timothy Shores 
-  Tim Mitzen
-  Isaac Busaleh
-  Mysti Dyse
-  Leon Chisum
-  Kasit Nganthavee
-  Loralie Flint
-  Remington Shock
+  Tim Mitzen  -project
+  Mysti Dyse - project 
+  Leon Chisum - project
+  Kasit Nganthavee - project
+  Loralie Flint - project
+  Remington Shock - project
