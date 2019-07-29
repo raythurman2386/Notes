@@ -135,3 +135,5 @@
       )
     }
 ***
+# Section 2
+# Composing React Components and Passing Data Via Props
