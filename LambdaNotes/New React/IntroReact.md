@@ -60,4 +60,62 @@
 
   Most of your time as a developer will be spent reading other's code and trying to understand it instead of always writing new code.
 
+# State in React
+  Web apps are basically comprsed of data(state), and things that change that data, or state.
+
+    import React from "react";
+    import { render } from "react-dom";
+    import "./styles.css";
+
+    const white = "https://image.flaticon.com/icons/png/512/32/32177.png";
+    const yellow = "https://i.pinimg.com/originals/92/94/ba/9294badee7b8f3d93fa9bc6c874641b2.png";
+
+    function App(){
+      return (
+        <div className="App">
+          <img src={ white }>
+          <img src={ yellow }>
+        </div>
+      )
+    }
+
+  This Displays both lights, not quite the solution that we're looking for to turn the light on and off
+
+    import React, { useState } from 'react';
+
+    const white = "https://image.flaticon.com/icons/png/512/32/32177.png";
+    const yellow = "https://i.pinimg.com/originals/92/94/ba/9294badee7b8f3d93fa9bc6c874641b2.png";
+
+    function App(){
+      const [ lightOn, setLightOn ] = useState(false);
+
+      return (
+        <div className="App">
+          <img src={ white }>
+          <img src={ yellow }>
+        </div>
+      )
+    }
+  
+  the `useState` hook above works like:
+
+  `lightOn` is a variable the value of which is whatever we passed in to `useState`. In this case it's value is the boolean primitive `false`. `setLightOn` is a function that will change the value of `lightOn`. We'll also note that I could have named these items whatever we wanted. 
+
+# Conditional Rendering
+  Conditional rendering is a fancy name for a very common pattern in React. We don't want to see both lightbulbs at once. We only want to <strong>render</strong> one or the other on the basis of some <strong>condition</strong>. In this case if the `lightOn` boolean is `false` we want to see the white bulb.
+
+    import React, { useState } from 'react';
+
+    const white = "https://image.flaticon.com/icons/png/512/32/32177.png";
+    const yellow = "https://i.pinimg.com/originals/92/94/ba/9294badee7b8f3d93fa9bc6c874641b2.png";
+
+    function App(){
+      const [ lightOn, setLightOn ] = useState(false);
+
+      return (
+        <div onClick={()=>setLightOn(!lightOn)} className="app">
+          {lightOn === false ? <img src={white} /> : <img src={yellow} />}
+        </div>
+      )
+    }
 ***
