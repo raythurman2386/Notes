@@ -1,3 +1,23 @@
+# Anatomy of a React Component
+
+    import React from 'react';
+    const Intro =() => {
+      return (
+        <div>
+          <h1>Hi Lambda!</h1>  // JSX
+        </div>
+      )
+    }
+
+    const Intro () => {
+      const greeting = "Hi Lambda!";
+      return (
+        <div>
+          <h1>{ greeting }</h1>  // JSX
+        </div>
+      )
+    }
+
 # React Components and State
   In computer programming `the separation of concerns` refers to a design philosophy that each piece of you code should do one and only one thing.
 
@@ -37,3 +57,25 @@
   The second approach is an example of declarative code. 
 
   With practice declarative code is easier to parse.
+
+***
+
+  Anatomy of a React Component
+
+    import React from 'react';
+    const Intro =() => {
+      return (
+        <div>
+          <h1>Hi Lambda!</h1>  // JSX
+        </div>
+      )
+    }
+
+    const Intro () => {
+      const greeting = "Hi Lambda!";
+      return (
+        <div>
+          <h1>{ greeting }</h1>  // JSX
+        </div>
+      )
+    }
