@@ -58,24 +58,6 @@
 
   With practice declarative code is easier to parse.
 
+  Most of your time as a developer will be spent reading other's code and trying to understand it instead of always writing new code.
+
 ***
-
-  Anatomy of a React Component
-
-    import React from 'react';
-    const Intro =() => {
-      return (
-        <div>
-          <h1>Hi Lambda!</h1>  // JSX
-        </div>
-      )
-    }
-
-    const Intro () => {
-      const greeting = "Hi Lambda!";
-      return (
-        <div>
-          <h1>{ greeting }</h1>  // JSX
-        </div>
-      )
-    }
