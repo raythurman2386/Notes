@@ -149,4 +149,10 @@
 
     export default emphasize; 
 
-  
+  Import Examples
+
+    import { a } from './directory/fileName' // Single named export
+
+    import { item1, item2, item3 } from './directory/filename' // Multi named exports
+
+    import Component from './folderName/Component.js' // Exported as default
