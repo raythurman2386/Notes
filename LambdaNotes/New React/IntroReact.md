@@ -156,3 +156,11 @@
     import { item1, item2, item3 } from './directory/filename' // Multi named exports
 
     import Component from './folderName/Component.js' // Exported as default
+
+  File Path specification
+    The prefixing `'./'` on the file URL points to a unique location of your file system. It indicates the file for import is exported in the current directory.
+    `'../'` Indicates a location one directory higher.
+
+    Current Directory == ./
+    Parent Directory == ../
+    Parent of Parent == ../../
