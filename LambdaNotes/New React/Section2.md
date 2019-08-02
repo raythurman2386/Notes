@@ -142,10 +142,11 @@
     const thurmanData = {
       name: "Tom Thurman",
       spouse: "Beth Thurman",
-      children: [{
-        name: "Mallory Korte",
-        spouse: "Brandon Korte",
-        children: [
+      children: [
+        {
+          name: "Mallory Korte",
+          spouse: "Brandon Korte",
+          children: [
             {
               name: "Logan Stowers"
             },
@@ -155,9 +156,9 @@
           ]  
         },
         {
-        name: "Raymond Thurman",
-        spouse: "Sheryl Thurman",
-        children: [
+          name: "Raymond Thurman",
+          spouse: "Sheryl Thurman",
+          children: [
             {
               name: "Melody Thurman"
             },
