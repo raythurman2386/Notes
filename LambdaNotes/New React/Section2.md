@@ -1,5 +1,5 @@
-# Section 2
 # Composing React Components and Passing Data Via Props
+# Imports and Exports
   Imports and Exports
     
     export const emphasize = str => {
@@ -27,6 +27,9 @@
     Current Directory == ./
     Parent Directory == ../
     Parent of Parent == ../../
+
+# What are Props
+
 
 # React Components to build a UI
   Nesting components
@@ -95,3 +98,41 @@
     };
 
   Parent component
+
+    const Parent = props => {
+      return (
+        <div>
+          <h1>Parent: {props.name}</h1>
+          {props.child ? <Child name={props.child} /> : null}
+          // If a child exists, Render the child
+        </div>
+      );
+    };
+
+  Child Component
+
+    const Child = props => {
+      return (
+        <div>
+          <h2>Child: {props.name}</h2>
+          {props.grandChild ? <GrandChild name={props.grandChild} /> : null}
+          // If GrandChild exists render grandchild
+        </div>
+      )
+    }
+
+  GrandChild Component
+
+    const GrandChild = props => {
+      return (
+        <div>
+          <h3>{props.name}</h3>
+        </div>
+      );
+    }
+
+    <Parent
+      name={simpsonData[0].name}
+      child={simpsonData[0].children[0].name}
+      grandChild={simpsonData[0].children[0].children[0].name}
+    />
