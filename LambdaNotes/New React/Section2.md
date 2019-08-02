@@ -136,3 +136,35 @@
       child={simpsonData[0].children[0].name}
       grandChild={simpsonData[0].children[0].children[0].name}
     />
+
+  Thurman Data
+
+    const thurmanData = {
+      name: "Tom Thurman",
+      spouse: "Beth Thurman",
+      children: [{
+        name: "Mallory Korte",
+        spouse: "Brandon Korte",
+        children: [
+            {
+              name: "Logan Stowers"
+            },
+            {
+              name: "Avaya Korte"
+            }
+          ]  
+        },
+        {
+        name: "Raymond Thurman",
+        spouse: "Sheryl Thurman",
+        children: [
+            {
+              name: "Melody Thurman"
+            },
+            {
+              name: "Bradley Thurman"
+            }
+          ]
+        }
+      ]
+    };
