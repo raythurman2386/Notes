@@ -137,3 +137,16 @@
 ***
 # Section 2
 # Composing React Components and Passing Data Via Props
+  Imports and Exports
+    
+    export const emphasize = str => {
+      return str.toUpperCase();
+    } // Exports a single named function
+
+    const emphasize = str => {
+      return str.toUpperCase();
+    }
+
+    export default emphasize; 
+
+  
