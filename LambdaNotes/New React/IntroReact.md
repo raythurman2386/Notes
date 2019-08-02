@@ -164,3 +164,39 @@
     Current Directory == ./
     Parent Directory == ../
     Parent of Parent == ../../
+
+# React Components to build a UI
+  Nesting components
+
+    const App = props => {
+      return (
+        <div>
+          <h2>Hello world from, {props.name}</h2>
+          <div>
+            <h4>My best friend in this world is: {props.bestFriend}</h4>
+            <p>My favorite book is: {props.favoriteBook}</p>
+          </div>
+        </div>
+      );
+    }
+
+  Lets break this component down
+
+    const Book = props => <p>My favorite book is: {props.favoriteBook}</p>
+
+    const BestFriend = props => {
+      return (
+        <div>
+          <h4>My best friend in this world is: {props.bestFriend}</h4>
+          <Book favoriteBook={props.favoriteBook} />
+        </div>
+      )
+    }
+
+    const App = () => {
+      return (
+        <div>
+          <BestFriend bestFriend="Homer Hickam" favoriteBook="October Sky"/>
+        </div>
+      );
+    }
