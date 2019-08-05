@@ -39,9 +39,10 @@
 
   Components rendered in a stateful component can receive that state data via a props attribute. Here it can be sent down on the props object to the child component, and there we can access it just like we would with most any other object.
 
-    const user = { name: 'Raymond', age: 30 };
+    // const user = { name: 'Raymond', age: 30 };
 
     const App = () => {
+      // same as above except using a hook
       const [user, setUser] = useState({name: 'Raymond', age: 30});
 
       return <UserInfo user={user} />
@@ -51,6 +52,7 @@
       return {
         <div>
           <DisplayName user={props.user} />
+          <DisplayAge user={props.user}>
         </div>
       }
     }
@@ -59,6 +61,7 @@
       return (
         <div>
           <h2>Hello, my name is {props.user.name}.</>
+          <h3>My age is {props.user.age}.</h3>
         </div>
       )
     }
