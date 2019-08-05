@@ -204,3 +204,5 @@
         }
       ]
     };
+
+# Pass props as dynamic data
