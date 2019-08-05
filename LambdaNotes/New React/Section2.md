@@ -257,3 +257,15 @@
     }
 
     <h1 className={props.isActive ? 'active' : ''}>Dynamic class name</h1>
+
+# SASS
+  Sass is style sheet language, or preprocessor scripting language, that will compile to CSS. Sass is now available feature with react-scripts@2.0.0 and higher
+
+    npm install node-sass
+
+  Once complete, all you need to do is start making style files with the `.sass` extension for Sass and `.scss` for the newest syntax  
+
+  Sass vs Scss - The difference is syntax;
+  Sass is structured off of indentations and omits brackets and semicolons. It can make for a very clean and easy to read code base, however the simplicity can lead to excessive nesting and less structure isn't always desirable.
+
+  Scss is almost identical to vanilla css, which makes the transition almost seamless. You're gaining all the special abilities of Sass but without having to rewrite your code.
