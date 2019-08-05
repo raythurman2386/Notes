@@ -31,6 +31,13 @@
 # What are Props
   React utilizes a top to bottom strategy when passing data. We know about state and how to implement it into an application using the state hook. Now we're going to take a look at what we can do with that data.
 
+  When we want to pass information held on state inside one component to another component, we pass it as props. We never make changes to props data - props are read only
+
+  A `stateful` component is one that holds state data, either as an object or a function component that includes the useState function made available in the React v16.8 release.
+
+  When data comes into our app, it is loaded and stored on state, either in a centralized component specifically for state management, or a component rendering other components.
+
+  Components rendered in a stateful component can receive that state data via a props attribute. Here it can be sent down on the props object to the child component, and there we can access it just like we would with most any other object.
 
 # React Components to build a UI
   Nesting components
