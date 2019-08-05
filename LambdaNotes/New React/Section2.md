@@ -29,6 +29,7 @@
     Parent of Parent == ../../
 
 # What are Props
+  React utilizes a top to bottom strategy when passing data. We know about state and how to implement it into an application using the state hook. Now we're going to take a look at what we can do with that data.
 
 
 # React Components to build a UI
