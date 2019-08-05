@@ -242,3 +242,18 @@
         </button>
       )
     }
+
+# Styling with CSS and SASS
+  Inline CSS - inline styling with the `style` attribute is spectified as an object with the style name in camelCase and the value set to a string
+
+    <h1 style={{fontSize: "30px" }}>Inline Style Syntax</h1>
+
+  Regular CSS
+
+    <h1 className="header">CSS Style Syntax</h1>
+
+    .header {
+      color: gray;
+    }
+
+    <h1 className={props.isActive ? 'active' : ''}>Dynamic class name</h1>
