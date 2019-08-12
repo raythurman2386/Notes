@@ -1,4 +1,4 @@
-Components are the building blocks of modern aapplications.
+> Components are the building blocks of modern aapplications.
 
 A component is made up of several parts, HTML, CSS, and JS brought together for reuse in a website or application.
 
