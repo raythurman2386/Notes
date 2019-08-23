@@ -82,14 +82,15 @@
     }
 
   Lets break this component down
+  Destructuring can also be used in place of props like so
 
-    const Book = props => <p>My favorite book is: {props.favoriteBook}</p>
+    const Book = ({ favoriteBook }) => <p>My favorite book is: {favoriteBook}</p>
 
-    const BestFriend = props => {
+    const BestFriend = ({ bestFriend, favoriteBook }) => {
       return (
         <div>
-          <h4>My best friend in this world is: {props.bestFriend}</h4>
-          <Book favoriteBook={props.favoriteBook} />
+          <h4>My best friend in this world is: {bestFriend}</h4>
+          <Book favoriteBook={favoriteBook} />
         </div>
       )
     }
