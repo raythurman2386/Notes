@@ -35,3 +35,6 @@
     useEffect(() => {
       console.log("The component has mounted.")
     }, []);
+
+## Sync side effects with state and props with effect hook
+> There are many times when we may only want a side effect to run when certain data changes. Learning how to sync the effect hook with changes in our state or props is essential to handling side effects in the most efficient manner.
