@@ -38,3 +38,5 @@
 
 ## Sync side effects with state and props with effect hook
 > There are many times when we may only want a side effect to run when certain data changes. Learning how to sync the effect hook with changes in our state or props is essential to handling side effects in the most efficient manner.
+
+### An empty dependancy array will cause the useEffect to only run on mount. Once parameters are put it, the useEffect will run anytime one of those items change.
