@@ -52,7 +52,29 @@
   `exact` says that the specified path requested will be the only if the path matches exactly what was requested.
 
 ## The Link component
+    import { Link } from 'react-router-dom'
+
   The `Link` component is Reacts way of implementing an `a` tag although it has a few different properties that we can use to control the component.
 
   instead of the `href` attribute the `Link` component gets to use 
   `to="/"`
+
+## Creating Dynamic Routes
+    import React from 'react';
+
+    const avengerData = []; // get the data from the same source above
+
+    function AvengerPage(props) {
+      const avenger = avengerData.find(avenger => props.match.params.id === avenger.id);
+      return (
+        // ...jsx goes here - something like...
+        <h1>{avenger.name}</h1>
+        // ...etc
+      );
+    }
+
+  There is an error with the above statement. When you are comparing your props.match id to the avenger id you are comparing a string and an int
+
+  To correct the error you will need to use 
+    
+    Number(props.match.params.id) === avenger.id
