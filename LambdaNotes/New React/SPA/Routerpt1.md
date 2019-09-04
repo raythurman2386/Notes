@@ -34,3 +34,25 @@
   With BrowserRouter comes new Props and State called `history` and `match` these are necessities for the Routes
 
 ## The Route component
+  > Routes are a way of getting to a destination
+
+    import { Route } from 'react-router-dom'
+
+  The `Route` component is the way we declare what components will be mounted based on what URL's are being requested by the user.
+
+  The Route components takes in a few `props`, the first is the `path` where the ROute component will trigger when someone types in that path in the URL.
+
+  The next important `prop` is the `component` prop. This is the `component` that you want React to mount when the URL matches the requested `path`
+
+    <Route exact path="/" component={Home} />
+    <Route path="/contact" component={Contact} />
+    <Route path="/about" component={About} />
+    <Route path="/users/ component={Users} />
+  
+  `exact` says that the specified path requested will be the only if the path matches exactly what was requested.
+
+## The Link component
+  The `Link` component is Reacts way of implementing an `a` tag although it has a few different properties that we can use to control the component.
+
+  instead of the `href` attribute the `Link` component gets to use 
+  `to="/"`
