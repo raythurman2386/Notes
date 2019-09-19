@@ -1,4 +1,4 @@
-# Advantages of nNde
+# Advantages of Node
   JS on the server: use the same language and paradigm for both Client (React Apps) and Server. 
   NO CONTEXT SWITCHING
   Single Threaded: removes the complexity of managing multiple threads.
