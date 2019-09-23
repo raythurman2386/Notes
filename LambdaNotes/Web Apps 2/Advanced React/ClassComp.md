@@ -34,3 +34,31 @@
   The `state` object that we set up on our `constructor` is a very React-specific way of doing things. It allows us to drive our UI using data.
 
   ## Share data between components with state and props
+
+    const FormComponent = props => {
+      return (
+        <form>
+          <input placeholder="change state" onChange={props.updateStateMessage} />
+        </form>
+      );
+    };
+
+    messageChangeHandler = event => {
+      this.setState({welcomeMessage: event.target.value});
+    };
+
+    render() {
+      return (
+        <div>
+          <WelcomeBanner message={this.state.welcomeMessage} updateStateMessage={this.updateStateMessage}/>
+        </div>
+      );
+    }
+
+  ## Respond to events triggered by user interaction
+
+  > React Synthetic events
+    onChange
+    onSubmit
+
+    https://reactjs.org/docs/events.html
