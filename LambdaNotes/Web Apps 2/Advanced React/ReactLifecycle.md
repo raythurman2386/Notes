@@ -1,5 +1,11 @@
 # React Lifecycle Methods
 
+## Birth/Mounting Phase
+## Growth/Updating Phase
+## Death/Un-mounting Phase
+
+***
+
 ## componentWillMount
 
   Your component is going to appear on the screen shortly. 
@@ -12,6 +18,8 @@
   #### Can call setState
   * Yes, but don't
   
+***
+
 ## componentDidMount
 
   Here is where you load in your data
@@ -23,6 +31,8 @@
 
   #### Can call setState
   * Yes
+
+  ***
 
 ## componentWillReceiveProps
 
@@ -40,6 +50,8 @@
   #### Can call setState
   * Yes
 
+***
+
 ## shouldComponentUpdate
 
   We have new props. Typical React says that when a component receives new props, or new state, it should update.
@@ -56,6 +68,8 @@
   #### Can call setState
   * No
 
+***
+
 ## componentWillUpdate
 
   Functionally the same as componentWillReceiveProps, except you are not allowed to call this.setState
@@ -70,6 +84,8 @@
   ##### Can call setState
   * No
 
+  ***
+
 ## componentDidUpdate
 
   Here we can accomplish the same stuff that we did in componentDidMount
@@ -79,6 +95,8 @@
 
   #### Can call setState
   * Yes
+
+  ***
 
 ## componentWillUnmount
 
