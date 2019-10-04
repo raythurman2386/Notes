@@ -116,3 +116,58 @@
   By building out a custom hook, we can skip writing out all of the stateful logic for our non-visual behavior. This produces nice `DRY` code that is easy to read and use.
 
 ## Learn to compose hooks in a custom hook to extend stateful logic
+
+    const useLocalStorage = (key, initialValue) => {
+      const [storedValue, setStoredValue] = useState(() => {
+        const item = window.localStorage.getItem(key)
+        return item ? JSON.parse(item) : initialValue
+      })
+      const setValue(value) => {
+        setStoredValue(value)
+        window.localStorage.setItme(key, JSON.stringigy(value))
+      }
+      return [storedValue, setValue]
+    }
+
+- First we pass in a key value, and an initial value. 
+  These two parameters are used in the useState hook call used immediately inside our custom hooks
+
+  instead of just passing in an initial value to this useState hook, we are using an anonymous arrow function as a callback to do two things:
+    * Check if the window.localstorage has a specific item
+    * Return that item from local storage if it exists or the initialValue otherwise
+
+- Then we have a setValue function that takes a value as a parameter sets it to the current storedValue by using the setStoredValue provided by useState, and it sets to localStorage.
+
+As our state is now stored, our custom hook will check here on refresh to see if the state exists.
+
+Now we will combine this with our useInput custom hook
+
+    export const useInput = (key, initialValue) => {
+      const [value, setValue] = useLocalStorage(key, initialValue)
+      const handleChanges = updatedValue => {
+        setValue(updatedValue)
+      }
+      return [value, setValue, handleChanges]
+    }
+
+    const useLocalStorage = (key, initialValue) => {
+      const [storedValue, setStoredValue] = useState(() => {
+        const item = window.localStorage.getItem(key)
+        return item ? JSON.parse(item) : initialValue
+      })
+      const setValue = value => {
+        setStoredValue(value)
+        window.localStorage.setItem(key, JSON.stringify(value))
+      }
+      return [storedValue, setValue]
+    }
+    
+While our useLocalStorage hook has stayed the same our useInput custom hook has some really nice upgrades going on. Instead on implementing useState from React as before we're now using useLocalStorage. 
+
+Furthermore we're also taking in two parameters instead of one, a key and initialValue. 
+
+These are then passed directly into the useLocalStorage hook, and it sets about implementing the logic with them that we described above. This returns to our useInput custom hook with either a value from localStorage or our initialValue, and our useInput custom hook then returns a value, setValue function and a handleChanges function in an array just the same as it did before.
+
+    const [username, setUsername, handleUsername] = useInput("userName", "");
+    const [password, setPassword, handlePassword] = useInput("password", "");
+    const [email, setEmail, handleEmail] = useInput("email", "");
