@@ -103,3 +103,67 @@ Create test cases inside the test file
     })
 
 ## Use Mocks and Spies in unit tests
+
+A function being tested may have inconvenient dependencies on other objects. To isolate the behavior of the function it's often desirable to replace the other objects with mocks that simulate the behavior of the real objects.
+
+Another use of mocks is as "spies", because they let us spy on the behavior of a function that is called by some other code.
+
+Mock functions can keep track of calls to the function, as well as the parameters passed in those calls. We can optionally define an implementation for the mock.
+
+Simpler mocks that implement just enough behavior to have the test execute are sometimes referred to as "stubs"
+
+    // inside utils.js file
+    export const executeIfEven = (number, callback) => {
+      if(number % 2 === 0) {
+        callback(number)
+      }
+    }
+
+     it('executes the callback with number, if number is even', () => {
+      const spy = jest.fn(); // Arrange!
+      help.executeIfEven(2, spy); // Act!
+      expect(spy).toBeCalledWith(2) // Assert!
+    });
+    it('does NOT execute the callback, if number is odd', () => {
+      const spy = jest.fn();
+      help.executeIfEven(1, spy);
+      expect(spy).not.toBeCalled()
+    });
+
+## Fire events and test async operations
+
+Following the philosophy of testing the UI the same way a user would, we will simulate a click event on a button which triggers an async operation that results in a new piece of DOM being mounted. To this effect we will refactor App.js so it renders a flash message obtained from a fake api
+
+      import React, { useState } from 'react';
+
+      const App = () => {
+        const [message, setMessage] = useState('');
+
+        fakeApiCall = () => Promise.resolve('Success!')
+
+        const onClickHandler = () => {
+          this.fakeApiCall().then(res => setMessage(res));
+        }
+
+        return (
+          <div>
+            <span>{message}</span>
+            <button onClick={onClickHandler}>
+              Get message!
+            </button>
+          </div>
+        );
+      }
+
+      // Testing file
+      import { render, fireEvent } from "@testing-library/react"
+
+      it('renders success text', () => {
+        const { getByText, findByText } = render(<App />)
+
+        act(() => {
+          fireEvent.click(getByText("Get message!"))
+        })
+        
+        findByText(/success/i)
+      })
