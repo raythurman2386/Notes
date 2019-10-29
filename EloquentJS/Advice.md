@@ -10,7 +10,7 @@
 
 6. Attempt to help others with questions and problems that they are having themself.
 
-Quick summary of my advice to new software people, on how to be better:
+> Quick summary of my advice to new software people, on how > to be better:
 
 1. Make a habit of coding things FROM SCRATCH, or coding simpler versions of complex things, for deeper insight. Most beginners just read code and think they get it. They really don't understand, unless they've coded things from scratch, on a blank screen.
 
