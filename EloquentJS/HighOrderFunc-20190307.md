@@ -1,6 +1,6 @@
-High Order Functions
+# Chapter 5 High Order Functions
 
-Abstraction
+## Abstraction
 Abstractions hide details and give us the ability to talk about problems at a higher level.
 
     repeat()
@@ -24,7 +24,7 @@ range() will work with a range of numbers, and can do things such as sum(range(1
 
 some() takes a test function and tells you whether that function returns true for any of the elements in the array.
 
-Standard Array Methods
+### Standard Array Methods
 
     forEach() is a built in Array method that provides something similar to a for/of loop for arrays.
 
