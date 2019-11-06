@@ -14,27 +14,10 @@ I will show you how to:
   - Set up ZSH on WSL
 
 - Install <a href="https://git-scm.com/">Git</a>
-  - Initial Config for git
-  - SSH Keygen
 
 - Install <a href="https://nodejs.org/en/">Node</a>  
-  - Verify Node and NPM installation
-  - Basic walkthrough of NPM
 
-- Install <a href="https://code.visualstudio.com/">VS Code</a>  
-  - Snippets
-  - Extensions
-    - Prettier
-    - eslint
-    - Bracket Pair Colorizer
-    - Live Server
-    - Material Icon && theme
-    - Quokka
-  - Intro to themes
-  - Useful Shortcuts
-
-
-
+- Install <a href="https://code.visualstudio.com/">VS Code</a>
 
 ## Install WSL
 The first thing we will do Is setup and install WSL.
@@ -219,6 +202,30 @@ now lets install node
 and thats it. Run `node --version` and `npm --version` and you should be good to go.
 
 ## Installing VS Code
+Ok, finally to the fun part.
+Lets install <a href="https://code.visualstudio.com/">VS Code</a>
+
+### Useful Shortcuts
+- Toggle Sidebar      Ctrl + B
+- Command Pallette    Ctrl + Shift + P
+- File Switcher       Ctrl + P
+- Terminal            Ctrl + `
+- Settings            Ctrl + ,
+- Previous file       Ctrl + P + P
+- focus Sidebar       Cmd/Ctrl + 0
+- focus Editor        Cmd/Ctrl + 1
+- Open Source Control Ctrl + Shift + G
+- Duplicate Line      Alt + Shift + Down/Up Arrow
+- Move Line           Alt + Down/Up Arrow
+- Delete Line         Ctrl + Shift + k
+
+### Extensions
+- Prettier
+- Bracket Pair Colorizer
+- Live Server
+- Material Icon && theme
+- Quokka
+- eslint
 
 ## Honorable Mentions
   - Github Desktop
