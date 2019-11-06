@@ -4,20 +4,14 @@ I am going to show you a very basic initial setup of your development environmen
 
 This tutorial will focus mainly on VS Code and Windows 10. I will have other guides and walkthroughs for Mac OSX and Linux as well.
 
-I will show you how to:
-- Install WSL
-  - setup WSL
-  - Walkthrough file structure and commands
-  - Aliases
+## I will show you how to:
+- How to Install WSL
 
-  Optional
-  - Set up ZSH on WSL
+- How to Install <a href="https://git-scm.com/">Git</a>
 
-- Install <a href="https://git-scm.com/">Git</a>
+- How to Install <a href="https://nodejs.org/en/">Node</a>  
 
-- Install <a href="https://nodejs.org/en/">Node</a>  
-
-- Install <a href="https://code.visualstudio.com/">VS Code</a>
+- How to Install <a href="https://code.visualstudio.com/">VS Code</a>
 
 ## Install WSL
 The first thing we will do Is setup and install WSL.
