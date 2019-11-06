@@ -4,6 +4,10 @@ I am going to show you a very basic initial setup of your development environmen
 
 This tutorial will focus mainly on VS Code and Windows 10. I will have other guides and walkthroughs for Mac OSX and Linux as well.
 
+Use this walkthrough as a guide till you are more comfortable with these steps and start to customize these instructions to your likings. 
+
+This is a somewhat barebones setup but this will work very well with what you will be doing at Lambda School.
+
 ## I will show you how to:
 - How to Install WSL
 
