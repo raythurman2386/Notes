@@ -9,13 +9,48 @@ Use this walkthrough as a guide till you are more comfortable with these steps a
 This is a somewhat barebones setup but this will work very well with what you will be doing at Lambda School.
 
 ## I will show you how to:
-- How to HomeBrew
+- How to <a href="https://brew.sh/">HomeBrew</a>
 
 - How to Install <a href="https://git-scm.com/">Git</a>
 
 - How to Install <a href="https://nodejs.org/en/">Node</a>  
 
 - How to Install <a href="https://code.visualstudio.com/">VS Code</a>
+
+## Install Homebrew
+In this walkthrough I'll be using Homebrew for most of the main installs
+
+Homebrew is a package manager much like NPM is for node and javascript.
+
+As you will see here, homebrew makes it trivial to get a basic dev setup up and running.
+
+To install brew, run the following command in your macOS terminal
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+And Viola, brew should now be installed
+
+## Install Git
+- brew install git
+
+### Basic Git setup
+
+### Basic Git Lambda Workflow
+
+## Install Node
+- brew install node
+
+check node version
+
+```
+node --version
+```
+
+```
+npm --version
+```
 
 ## Installing VS Code
 Ok, finally to the fun part.
