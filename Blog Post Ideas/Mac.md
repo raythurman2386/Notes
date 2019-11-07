@@ -32,10 +32,42 @@ To install brew, run the following command in your macOS terminal
 
 And Viola, brew should now be installed
 
+### Brew Packages
+If you would like to check out the many brew packages you can install check out those lists here: https://formulae.brew.sh/
+
 ## Install Git
 - brew install git
 
 ### Basic Git setup
+
+```
+git config --global user.name YourNameHere
+git config --global user.email YourEmailHere
+git config --global core.autocrlf false
+```
+There are a few other config settings you could add, but these will be the ones to get you up and running. 
+
+Feel free to check out the docs on the other config options.
+
+### Creating a new SSH Key
+If you do not already have an SSH Key we will set one up right now.
+
+```
+ssh-keygen -t rsa -b 4096 -C "yourEmailHere"
+```
+
+now to copy the file and add it to github
+
+```
+cp ~/.ssh/id_rsa.pub
+```
+
+Or display your key and copy it from the terminal with: 
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
 
 ### Basic Git Lambda Workflow
 
