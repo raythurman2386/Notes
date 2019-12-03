@@ -96,6 +96,20 @@ Lets write our first web server with express
 
 ## Create an API that can respond to GET requests
 
+- The first step is to define a new route handler to respond to GET requestss at the /hobbits endpoint
+- Next, we define the return data that our endpoint will send back to the client. We do this inside the newly defined route handler function
+- Now we can return the hobbits array. We could use .send(hobbits) like we did for the string on the / endpoint, but this time we'll learn about two other useful methods we find in the res object
+
+We should provide as much useful information as possible to the clients using our API. One such piece of information is the HTTP status code that reflects the outcome of the operation the client is trying to perform.
+
+In this case the client is trying to get a list of a particular resource.
+
+Sending back a 200 OK status code communicates to the client that the operation was successful
+
+The .status() method of the response object can be used to send any valid HTTP status code
+
+We are also chaining the .json() method of the res object to clearly communicate to both the client making the request and to the next dev working with this code, that we intend to send the data in JSON format
+
       server.get('/hobbits', (req, res) => {
         const hobbits = [
         {
