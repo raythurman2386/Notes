@@ -124,3 +124,9 @@ We are also chaining the .json() method of the res object to clearly communicate
         // Route handler code here
         res.status(200).json(hobbits)
       })
+
+# Postman/Insomnia
+
+Testing API's is different from testing websites or web applications. To test the latter, a web browser is sufficient, but for APIs, we need to be able to make POST/PUT/PATCH/DELETE requests and even modify the request headers.
+
+Postman and other tools allow full control when making requests. We can easily change the HTTP Method used, add JSON data to the body, add form data, add headers, examine the response, and more
