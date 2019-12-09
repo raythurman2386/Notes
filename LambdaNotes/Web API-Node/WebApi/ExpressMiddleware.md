@@ -67,3 +67,66 @@ Any middleware in the queue can modify both the req, and res objects but it's no
 Calling `next()` signals to Express that the middleware has finished, and it should call the next middleware function.
 
 Make sure to always call `next()` or use one of the methods that send a response back like `res.send()` or `res.json()`
+
+## **_ Learn to Write error handling middleware _**
+
+When our app encounters an error in the middle of executing middleware, we can choose to hand over control to error handling middleware by calling `next()` with one arg.
+
+This type of middleware takes four args: error, req, res, and next.
+
+We pass the first arg when calling `next(new Error('Error message here'))
+
+Error handling middleware can be placed anywhere in the stack, but it makes the most sense to place it at the end. If the intention is for middleware to handle errors that may occur elsewhere in the queue the it needs to run after the rest of middleware has run.
+
+      server.get('/download', (req, res, next) => {
+        const filePath = path.join(__dirname, 'index.html');
+        res.sendFile(filePath, err => {
+          if(err) {
+            next(err);
+          } else {
+            console.log('File sent successfully');
+          }
+        })
+      })
+
+No let's add error-handling middleware to the server
+
+      server.use((err, req, res, next) => {
+        console.log(err);
+
+        res
+          .status(500)
+          .json({ message: 'There was an error'});
+      })
+
+This middleware will only get called if any other middleware or route handler that comes before it has called next() with an argument like the /download endpoint above
+
+// Completed Code should look like
+
+    const express = require('express');
+    const path = require('path');
+
+    const server = express();
+
+    server.get('/download', (req, res, next) => {
+      const filePath = path.join(__dirname, 'index.html');
+      res.sendFile(filePath, err => {
+        // if there is an error the callback function will get an error as it's first argument
+        if (err) {
+          // we could handle the error here or pass it down to error-handling middleware like so:
+          next(err); // call the next error-handling middleware in the queue
+        } else {
+          console.log('File sent successfully');
+        }
+      });
+    });
+
+    server.use((err, req, res, next) => {
+      console.error(err);
+
+      res
+        .status(500)
+        .json({ message: 'There was an error performing the required operation' });
+    });
+
+    server.listen(5000);
