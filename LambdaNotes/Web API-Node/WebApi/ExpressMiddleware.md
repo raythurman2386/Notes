@@ -70,6 +70,8 @@ Make sure to always call `next()` or use one of the methods that send a response
 
 ## **_ Learn to Write error handling middleware _**
 
+<a href="https://nemethgergely.com/error-handling-express-async-await/">Error handling middleware</a>
+
 When our app encounters an error in the middle of executing middleware, we can choose to hand over control to error handling middleware by calling `next()` with one arg.
 
 This type of middleware takes four args: error, req, res, and next.
