@@ -66,4 +66,4 @@ Any middleware in the queue can modify both the req, and res objects but it's no
 
 Calling `next()` signals to Express that the middleware has finished, and it should call the next middleware function.
 
-Make sure to always call next() or use one of the methods that send a response back like `res.send()` or `res.json()`
+Make sure to always call `next()` or use one of the methods that send a response back like `res.send()` or `res.json()`
