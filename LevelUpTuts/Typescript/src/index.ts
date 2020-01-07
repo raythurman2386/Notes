@@ -1,3 +1,4 @@
+import { Person, Job } from './Interfaces';
 // TS Types and How to use them
 // Explicit types
 const isOpen: boolean = false;
@@ -12,7 +13,6 @@ const strList: string[] = ["something", "else", "here"]
 
 const me: [string, number, boolean] = ["Ray", 32, false];
 
-enum Job { WebDev, WebDesigner, PM }
 const job: Job = Job.WebDev;
 
 const phone: any = "Pixel 3";
@@ -37,7 +37,7 @@ sayWord("Ray");
 // TS Knows this should be a string
 // AKA Implicit Type
 let newName = 'Raymond';
-newName = 10;
+// newName = 10;
 
 // Union Types with |
 let anotherNewName: string | number = 'Raymond';
@@ -59,12 +59,6 @@ dog = "Zeus";
 dog = undefined;
 // dog = 10;
 // dog = false;
-
-// Interface
-interface Person {
-  name: string,
-  age?: number // Optional Param
-}
 
 const sayName = ({ name, age }: Person): string => {
   console.log(name);
@@ -95,3 +89,28 @@ createContent(Type.Video)
 
 console.log(Type.Quiz); // 2, console logs the index of Quiz
 console.log(Type2.Video); // VIDEO, 
+
+// Classes
+
+class Team {
+  teamName: string;
+  // public teamName: string;
+  // private teamName: string; // Prevents outside usage
+  // readonly teamName: string; // prevents from being changed
+
+  constructor(teamName) {
+    this.teamName = teamName;
+  }
+
+  score(): string {
+    console.log("gooooooal");
+    return 'goal!'
+  }
+}
+
+const redWings = new Team('Red Wings');
+
+// Generics
+const outputInput = <T>(arg: T): T => {
+  return arg;
+}
