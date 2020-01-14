@@ -1,8 +1,8 @@
-// for (var i = 0; i < 3; i++) {
+// TODO: for (var i = 0; i < 3; i++) {
 //   setTimeout(function () { alert(i); }, 1000 + i);
 // }
 
-(function() {
+(function () {
   var a = (b = 5);
 })();
 
