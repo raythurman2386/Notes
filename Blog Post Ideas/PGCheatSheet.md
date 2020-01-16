@@ -46,24 +46,30 @@ Replace contents of `./knexfile.js` with:
 module.exports = {
   development: {
     client: 'pg',
-    connection:'postgres://localhost/<examples>',
+    connection:{
+      name: process.env.DB_NAME,
+      database: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASS
+    },
     migrations: {
-      directory: './db/migrations'
+      directory: './data/migrations'
     },
     seeds: {
-      directory: './db/seeds/dev'
+      directory: './data/seeds'
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+    pool: { min: 2, max: 10 }
   },
 
   test: {
     client: 'pg',
     connection:'postgres://localhost/<examples_test>',
     migrations: {
-      directory: './db/migrations'
+      directory: './data/migrations'
     },
     seeds: {
-      directory: './db/seeds/test'
+      directory: './data/seeds/test'
     },
     useNullAsDefault: true
   },
@@ -72,10 +78,10 @@ module.exports = {
     client: 'pg',
     connection: process.env.DATABASE_URL,
     migrations: {
-      directory: './db/migrations'
+      directory: './data/migrations'
     },
     seeds: {
-      directory: './db/seeds/production'
+      directory: './data/seeds/production'
     },
     useNullAsDefault: true
   }
