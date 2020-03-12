@@ -3,7 +3,7 @@ const fs = require('fs')
 console.log("Started reading files")
 
 fs.readdir('./assets', (err, files) => {
-  if(err) {
+  if (err) {
     throw err;
   }
 
@@ -13,7 +13,7 @@ fs.readdir('./assets', (err, files) => {
 
 // Readfile
 fs.readFile('./assets/Readme.md', 'UTF-8', (err, text) => {
-  if(err) {
+  if (err) {
     throw err;
   }
 
@@ -39,8 +39,8 @@ We can write text to a file with fs.writefile
 * fs.writeFile
 `
 
-fs.writeFile('./assets/note.md', md.trim(), (err) => {
-  if(err) {
+fs.writeFile('./assets/notes.md', md.trim(), (err) => {
+  if (err) {
     throw err
   }
 
@@ -48,7 +48,7 @@ fs.writeFile('./assets/note.md', md.trim(), (err) => {
 })
 
 fs.mkdir("storage-files", err => {
-  if(err) {
+  if (err) {
     throw err
   }
 
@@ -56,22 +56,22 @@ fs.mkdir("storage-files", err => {
 })
 
 // Append Files
-const colorData = require('./assets/colors.json')
+const colorData = require('./assets/colorData.json')
 
 colorData.colorList.forEach(
   color => {
-    fs.appendFile('./storage-files/colors.md', `${color.color}: ${color.hex} \n`, 
-    err => {
-      if(err) {
-        throw err
-      }
-    })
-})
+    fs.appendFile('./storage-files/colors.md', `${color.color}: ${color.hex} \n`,
+      err => {
+        if (err) {
+          throw err
+        }
+      })
+  })
 
 // Rename
 fs.renameSync("./assets/colors.json", './assets/colorData.json')
 fs.rename("./assets/notes.md", "./storage-files/notes.md", err => {
-  if(err) {
+  if (err) {
     throw err
   }
 })
