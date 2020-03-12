@@ -79,3 +79,16 @@ fs.rename("./assets/notes.md", "./storage-files/notes.md", err => {
 setTimeout(() => {
   fs.unlinkSync("./assets/alex.jpg")
 }, 4000)
+
+// Removes all files from directory to be removed
+fs.readdirSync("./storage-files").forEach(fileName => {
+  fs.unlinkSync(`./storage-files/${fileName}`)
+})
+
+fs.rmdir('./storage-files', err => {
+  if (err) {
+    throw err
+  }
+
+  console.log('Directory removed')
+})
