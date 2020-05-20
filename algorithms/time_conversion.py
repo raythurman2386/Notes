@@ -24,3 +24,7 @@ def time_conversion(time):
     print(f"{hour}:{minutes}:{seconds}".rstrip())
 
 time_conversion("12:05:45AM")
+time_conversion("11:05:45AM")
+time_conversion("01:05:45PM")
+time_conversion("05:05:45AM")
+time_conversion("05:05:45PM")
