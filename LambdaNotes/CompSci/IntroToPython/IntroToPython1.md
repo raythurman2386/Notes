@@ -20,7 +20,7 @@ Regardless of the language, every programming language is made up of a few basic
 
 ### Python Basics
 
-```print('Hello World!')```
+`print('Hello World!')`
 
 Arithmetic Operators
 
@@ -48,6 +48,7 @@ Although, you can use the `+` to concatenate strings
 And `*` to duplicate a string
 
 ### Composition
+
 In programming, when we talk about taking small pieces and building larger functionality we are describing composition.
 
 Almost anywere you can put a value, you can put an expression(which evaluates to a value)
