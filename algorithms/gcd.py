@@ -1,11 +1,12 @@
 def greatest_common_denom(a, b):
-  while b != 0:
-    temp = a
-    a = b
-    b = temp % b
+    while b != 0:
+        temp = a
+        a = b
+        b = temp % b
 
-  print(a)
-  return a
+    print(a)
+    return a
+
 
 greatest_common_denom(20, 4)
 greatest_common_denom(50, 15)

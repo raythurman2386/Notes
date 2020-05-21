@@ -1,5 +1,6 @@
 def grade_students(grades):
-  pass
+    pass
+
 
 grade_students([73, 67, 38, 33])
 
