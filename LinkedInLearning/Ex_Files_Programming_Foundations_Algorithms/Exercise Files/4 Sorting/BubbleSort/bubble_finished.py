@@ -16,7 +16,7 @@ def bubbleSort(dataset):
 
 
 def main():
-    list1 = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
+    list1 = list(range(1, 100))
     print("Starting state: ", list1)
     bubbleSort(list1)
     print("Final state: ", list1)
