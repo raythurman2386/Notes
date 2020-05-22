@@ -52,14 +52,14 @@ def timeInWords(h, m):
     hour_string = hour_arr[h - 1]
     initial_str = str(m)
     remainder = str(60 - m)
-    result = ""
+    result = f"{hour_string} {min_string}"
     # Set the Hours to a string
     # If greater than 30
     # Hour is equal to the following hour
     # Convert the minutes to a string
     # if 15 min past the hour or before the new hour,
     # min_string will equal quarter past
-    if initial_str in min_dict.keys():
+    if initial_str in min_dict.keys() or remainder in min_dict.keys():
         if m == 1:
             min_string = min_dict[initial_str]
             result = f"{min_string} minute past {hour_string}"
@@ -75,17 +75,13 @@ def timeInWords(h, m):
             min_string = min_dict[initial_str]
             result = f"{min_string} past {hour_string}"
 
-    elif remainder in min_dict.keys():
-        if m > 30:
+        elif m > 30:
             hour_string = hour_arr[h]
             min_string = min_dict[remainder]
             result = f"{min_string} minutes to {hour_string}"
 
             if min_string == "quarter":
                 result = f"{min_string} to {hour_string}"
-
-    else:
-        result = f"{hour_string} {min_string}"
 
     return result
 
