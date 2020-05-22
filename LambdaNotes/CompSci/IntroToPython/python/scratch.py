@@ -33,10 +33,27 @@ if total_copies > 1:
 else:
     total_shipping = ship_one
 
-wholesale_cost = total_shipping + book_after_discount
+wholesale_cost = total_shipping + (book_after_discount * total_copies)
 
 print(total_shipping, 'shipping')
 
 print(book_after_discount, 'after discount')
 
 print(wholesale_cost, 'wholesale')
+
+
+# do twice
+def print_something(str):
+    print(str)
+
+
+def repeat_func(func, num, value):
+    i = 0
+    while i < num:
+        func(value)
+        i += 1
+
+
+repeat_func(print_something, 5, "Hello World")
+repeat_func(print_something, 10, "Kinda Cool")
+repeat_func(print_something, 1, "Would Ya Look At It!")
