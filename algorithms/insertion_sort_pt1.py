@@ -12,7 +12,7 @@ def insertion_sort(n, arr):
     x = " ".join(arr)
     print(x)
 
-insertion_sort(5, [2, 4, 6, 8, 3])
+insertion_sort(5, ["2", "4", "6", "8", "3"])
 
 """
 JS Implementation
