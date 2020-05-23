@@ -67,3 +67,38 @@ Used to organize data so it can be processed.
 
 - Trees
 - Hash Tables
+  Data structue that matches keys to values, similar to a dict
+
+  - key-to-value mappings are unique
+  - hash tables are typically very fast
+
+  - for small datasets, arrays are usually more efficient, or a linked list
+  - hash tables don't order entries in a predictable way
+
+## Recursion
+
+Recursion is when a function calls itself
+
+```
+def function():
+  <!-- do something -->
+  function()
+```
+
+recursive functions must have a breaking condition,
+otherwise you will create an infinite loop and will eventually crash
+
+Each time the function is called, the old arguments are saved
+
+This is called the "call stack"
+
+```
+def countdown(x):
+  if x == 0:
+    print("done!)
+  else:
+    print(x, "..")
+    countdown(x - 1)
+
+countdown(4)
+```
