@@ -1,51 +1,51 @@
 # Complete the timeInWords function below.
 def timeInWords(h, m):
     hour_arr = [
-      "one", 
-      "two", 
-      "three", 
-      "four", 
-      "five", 
-      "six", 
-      "seven", 
-      "eight", 
-      "nine", 
-      "ten", 
-      "eleven", 
-      "twelve"
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve"
     ]
 
     min_dict = {
-      "1": "one",
-      "2": "two",
-      "3": "three",
-      "4": "four",
-      "5": "five",
-      "6": "six",
-      "7": "seven",
-      "8": "eight",
-      "9": "nine",
-      "10": "ten",
-      "11": "eleven",
-      "12": "twelve",
-      "13": "thirteen",
-      "14": "forteen",
-      "15": "quarter",
-      "16": "six teen",
-      "17": "seven teen",
-      "18": "eight teen",
-      "19": "nine teen",
-      "20": "twenty",
-      "21": "twenty one",
-      "22": "twenty two",
-      "23": "twenty three",
-      "24": "twenty four",
-      "25": "twenty five",
-      "26": "twenty six",
-      "27": "twenty seven",
-      "28": "twenty eight",
-      "29": "twenty nine",
-      "30": "half"
+        "1": "one",
+        "2": "two",
+        "3": "three",
+        "4": "four",
+        "5": "five",
+        "6": "six",
+        "7": "seven",
+        "8": "eight",
+        "9": "nine",
+        "10": "ten",
+        "11": "eleven",
+        "12": "twelve",
+        "13": "thirteen",
+        "14": "forteen",
+        "15": "quarter",
+        "16": "sixteen",
+        "17": "seventeen",
+        "18": "eightteen",
+        "19": "nineteen",
+        "20": "twenty",
+        "21": "twenty one",
+        "22": "twenty two",
+        "23": "twenty three",
+        "24": "twenty four",
+        "25": "twenty five",
+        "26": "twenty six",
+        "27": "twenty seven",
+        "28": "twenty eight",
+        "29": "twenty nine",
+        "30": "half"
     }
 
     min_string = "o' clock"
@@ -86,4 +86,4 @@ def timeInWords(h, m):
     return result
 
 
-print(timeInWords(5, 0))
+print(timeInWords(5, 49))
