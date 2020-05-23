@@ -102,3 +102,32 @@ def countdown(x):
 
 countdown(4)
 ```
+
+## Sorting
+
+### The Bubble Sort
+
+- very simple to understand and implement
+- Performance: O(n2)
+
+  - pretty poor performance overall
+  - for loops inside of for loops are usually n2 (quadratic)
+
+- Other sorting algorithms are generally much better
+- Not considered to be a practical solution
+
+### The Merge Sort
+
+- Divide and conquer algorithm
+- Breaks a dataset into individual pieces and merges them
+- uses recursion to operate on datasets
+- performs well on large datasets
+- In general has a performace of O(n log n) time complexity (log linear)
+
+### The Quick Sort
+
+- Divide and conquer just like merge sort
+- also uses recursion for sorting
+- Generally performs better than merge sort, O(n log n)
+- operates in place on the data
+- Worst case is O(n2) when data is mostly sorted already
