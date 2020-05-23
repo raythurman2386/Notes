@@ -131,3 +131,13 @@ countdown(4)
 - Generally performs better than merge sort, O(n log n)
 - operates in place on the data
 - Worst case is O(n2) when data is mostly sorted already
+
+## Searching
+
+- unordered searching can become inneficient
+- unordered is considered a linear search
+
+- ordered searching can be done with a binary search
+- ordered is much more performant than unordered
+
+- isSorted is a linear search as well
