@@ -52,5 +52,18 @@ Used to organize data so it can be processed.
   Item lookup is linear in time complexity (O(n))
 
 - Stacks and Queues
+  Stack: collection of elements that support push and pop operations
+  the last item pushed is the first one popped
+  last on first off
+
+  - Expression processing
+  - Backtracking: browser back stack for example (back button)
+
+  Queue: collection that supposts adding and removing
+  first item added is the first item out
+
+  - Order processing, that way first order that comes through is the first processed
+  - Messaging, make sure that each message is sent in the correct order
+
 - Trees
 - Hash Tables
