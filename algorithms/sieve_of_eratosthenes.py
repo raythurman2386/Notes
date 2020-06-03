@@ -15,14 +15,15 @@ def main():
     num = int(input("Find prime numbers up to number: "))
     # num = 30
     starting_num = 2
+    index = 0
     list = [num for num in range(starting_num, num + 1)]
 
     while starting_num * starting_num <= num:
-        for num in list:
-            if num % starting_num == 0 and not num == 2:
+        for num in list[index+1:]:
+            if num % starting_num == 0:
                 list.remove(num)
-
-        starting_num += 1
+        index += 1
+        starting_num = list[index]
 
     print(list)
 
