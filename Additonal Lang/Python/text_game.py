@@ -1,8 +1,8 @@
 import random
-import datetime
+from datetime import datetime
+
+
 # Game Object
-
-
 class GameObject:
     def __init__(self, created_at, name, dimensions):
         super().__init__()
@@ -62,3 +62,9 @@ class Villian(Humanoid):
     def frostbolt(self, target):
         i = random.randint(1, 3)
         return target.take_damage(i)
+
+
+mage = Humanoid(created_at=datetime.today(), name="Ray", dimensions=[
+                2, 1, 1], health_points=10, team="Horde", weapons=["Staff of Shamalama"], language="Common Tongue")
+
+print(mage.name)
