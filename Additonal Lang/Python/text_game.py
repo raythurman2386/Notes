@@ -51,6 +51,9 @@ class Hero(Humanoid):
         i = random.randint(1, 6)
         return target.take_damage(i)
 
+    def __str__(self):
+        return f"Hero: {self.name}, Health: {self.health_points} "
+
 
 # Villains
 class Villian(Humanoid):
@@ -62,6 +65,9 @@ class Villian(Humanoid):
     def frostbolt(self, target):
         i = random.randint(1, 3)
         return target.take_damage(i)
+
+    def __str__(self):
+        return f"Villain: {self.name}, Health: {self.health_points} "
 
 
 mage = Humanoid(created_at=datetime.today(), name="Ray", dimensions=[
@@ -86,3 +92,10 @@ print(hero.name)
 print(villian.name)
 print(archer.greet())
 print(hero.heroic_slash(villian))
+print(hero)
+print(villian)
+print(villian.frostbolt(hero))
+print(hero.heroic_slash(villian))
+print(hero)
+print(villian)
+print(villian.frostbolt(hero))
