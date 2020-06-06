@@ -28,6 +28,7 @@ def comp_choice():
     return random.randint(1, 3)
 
 
+
 # Initialize Game
 results = load_game()
 wins, loss, ties = int(results[0]), int(results[1]), int(results[2])
