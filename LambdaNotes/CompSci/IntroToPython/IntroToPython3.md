@@ -47,3 +47,112 @@ Polymorphism is the ability to treat a class differently depending on which subc
 For example, let's say we modeled a game of chess in our program. We created a Board class that can accept a move from a Player calss. Now, the Board will call a move function on the Piece class. Each of the six pieces are subclasses of the Piece class(Rook, Bishop, King, etc.) Each of the classes has a specific move method that overrides the move methods on the parent classes
 
 So the Board class has a move method available on its interface. The Board class need not know what type of piece it is dealing with when it calls move, because the subclasses override that method. This is an example of Polymorphism.
+
+## A starting point
+
+A good starting point is to describe your problem in detailed sentences. Once you have some text that describes your general problem, you go through and find all of the nouns in the text. The nouns then become the classes in your program. Any verbs associated with a noun become methods on the class. Any adjectives associated with the nnoun become the attributes on the class
+
+This can be an excellent starting point, however there are a few things to be careful of. A proficient programmer will use built in data structures until there is a need to define a class. If an object has only data, then a built in structure like a list, set, or dictionary might be more appropriate than a class. If an object only has behavior and no stored data, then defining a function may be a better choice.
+
+## Self Documenting
+
+When programmers first start writing object oriented code a common complaint is that they end up writing more code to accomplish the same task than they would if they just wrote simple procedural code.
+
+One thing to note is that object oriented code although at times more verbose, often ends up being self documenting and much easier to read. Code length is not a good indicator of code complexity, and by the time we documented the procedural code, it would likely be as long as the oop version.
+
+#### Model an online store in python
+
+We need to design an online store where customers can purchase products from vendors. Vendors need to be able to create the products that customers can then purchase
+
+- Users
+  - Customers
+  - Vendors
+  - Admins
+- Products
+- Purchases
+
+- Users
+
+  - Attributes
+    - name
+    - isAdmin
+  - Customers
+    - Attributes
+      - name
+      - collection of purchases
+  - Vendors
+    - Attributes
+      - name
+      - collection of products
+  - Admin
+    - name
+    - admin flag
+
+- Products
+
+  - Attributes
+    - name
+    - price
+    - vendor
+
+- Purchases
+  - Attributes
+    - product
+    - customer
+    - price
+    - date and time about purchase
+
+We also need to think about the relationship between these objects
+
+- Sellers have products(one to many)
+- Customers have purchases(one to many)
+- Purchases have products(one to many)
+
+Now we can write the code
+
+```
+from datetime import datetime
+
+class User:
+    def __init__(self, name, is_admin=False):
+        self.name = name
+        self.is_admin = is_admin
+
+class Admin(User):
+    def __init__(self, name):
+        super().__init__(name, is_admin=True)
+
+class Customer(User):
+    def __init__(self, name):
+        super().__init__(name)
+        self.purchases = []
+
+    def purchase_product(self, product):
+        purchase = Purchase(product, self)
+        self.purchases.append(purchase)
+
+class Vendor(User):
+    def __init__(self, name):
+        super().__init__(name)
+        self.products = []
+
+    def create_product(self, product_name, product_price):
+        product = Product(product_name, product_price, self)
+        self.products.append(product)
+
+
+class Product:
+    def __init__(self, name, price, vendor):
+        self.name = name
+        self.price = price
+        self.vendor = vendor
+
+class Purchase:
+    def __init__(self, product, customer):
+        self.product = product
+        self.customer = customer
+        self.purchase_price = product.price
+        self.purchase_data = datetime.now()
+```
+
+User is the BASE class and the others `inherit` from the User
