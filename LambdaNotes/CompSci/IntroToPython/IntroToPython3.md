@@ -156,3 +156,99 @@ class Purchase:
 ```
 
 User is the BASE class and the others `inherit` from the User
+
+## Defining Classes
+
+We define the class by starting with the reserved class keyword. Then we write the name of the class and terminate the line with a colon.
+
+> Note: PEP 8 recommends that classes be named using CamelCase notation
+
+After the class definition, we have the contents of the class indented below. In python, indentation is used rather than braces or brackets to delimit the class definition
+
+### Instantiating a class
+
+`a = MyFirstClass()`
+
+## Demonstrate Usage of **init**, **str**, and **repr**
+
+- init
+  Most oop languages have the concept of a constructor. A constructor is a special method that initializes an object when it is created
+
+> Python is unique in that it has a constructor method and an init method. However, the constructor method is only used if you are doing something rare and exotic. We will focus on the init method here
+
+The `self` argument is simply a reference to the object that the method is being invoked on.
+
+- str
+  The str method is spection just like the init method. The **str** method is supposed to return a string representation of an object
+
+For example
+
+```
+def __str__(self):
+    return f`{self.hour}:{self.minute}:{self.second}`
+```
+
+When you print an object python calls the str method to determine what to print out
+
+Whenever you are difining a new class, you should start by defining the **init** method so you can instantiate objects. The next thing you should do is define the **str** method so you have useful info for debugging
+
+- repr
+  repr is similar to str, in that it will return a printable representation of the object. However, with **repr** it will return one of the ways possible to create the object
+
+What we might really want to know is how we could recreate that object. By defining a repr method on the Point class we can do that
+
+```
+def __repr__(self):
+    return 'Point(x=%s, y=%s)' % (self.x, self.y)
+```
+
+now point would print:
+
+`Point(x=1, y=2)`
+
+## Private Data in Python
+
+Most oop languages have a concept of access control. This means that some attributes and methods on an object are marked private.
+
+Python is different and does not do this. Python doesn't enforce laws that someday might get in your way. The Python way is to provide unenforced guidelines and best practices instead
+
+It is also the convention to prefix an attribute or method with an underscore character \_. Other python programmers will see this and recognize it as a flag for an internal variable. However the interpreter will still allow direct access.
+
+To strongly usggest that outside objects not access a property or method, we can add a double underscore prefix \_\_. This causes the interpreter to perform name mangling on the attribute. Essentially an outside object could still access the internal data, but they will have to try a bit harder to do so.
+
+## LEGB variable scope
+
+1. Local
+2. Enclosing
+3. Global
+4. Builtin
+
+The order matters. THe interpreter will first search the local, then enclosing, global and builtin
+
+## Instance vs. Class
+
+Some attributes and methods are part of the class itself and some are part of the objects that are created using that class as a blueprint
+
+When looking at a class definition, if you see an initial self argument on a method, then you know that it is an instance method. The self keyword is referencing the object instance that was created from the class, not the class itself. These are the types of methods you normally write when you create your own classes. The excclaim method on the car class is a good example of a simple instance method.
+
+Within a class definition, a preceding @classmethod decorator indicates that the following function is a class method. Also, the first param to the method is the class itself. The Python tradition is to name this parameter `cls` because class is reserved
+
+```
+>>> class Counter():
+...     count = 0
+...     def __init__(self):
+...         Counter.count += 1
+...     def exclaim(self):
+...         print("I'm a Counter!")
+...     @classmethod
+...     def children(cls):
+...         print(f"Counter class has {cls.count} instances that have been created")
+...
+>>> counter_one = Counter()
+>>> counter_two = Counter()
+>>> counter_three = Counter()
+>>> Counter.children()
+Counter class has 3 instances that have been created
+>>>
+
+```
