@@ -1,6 +1,5 @@
 class CuboidMaker:
     def __init__(self, length, width, height):
-        super().__init__()
         self.length = length
         self.width = width
         self.height = height

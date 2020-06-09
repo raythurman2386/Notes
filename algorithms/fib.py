@@ -14,4 +14,6 @@ def fib_opt(n, cache={}):
         return cache[n]
 
 
+print(fib(10))
+print("**********")
 print(fib_opt(996))
