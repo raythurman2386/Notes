@@ -32,3 +32,15 @@ def sock_merchant(n, ar):
     return pairs
 
 print(sock_merchant(7, [1, 2, 1, 2, 1, 3, 2]))
+
+
+from collections import Counter
+def sockMerchant(n, ar):
+    # total = 0
+    # for values in Counter(ar).values():
+    #     total += values//2
+    # return total
+    return sum([Counter(ar)[k] // 2 for k in Counter(ar)])
+
+
+print(sockMerchant(7, [1, 2, 1, 2, 1, 3, 2]))
