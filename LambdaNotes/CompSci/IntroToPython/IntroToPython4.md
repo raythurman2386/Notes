@@ -75,3 +75,13 @@ duck = Duck(Bill('wide orange'), Tail('long'))
 Notice how none of the classes have an inheritance relationship with the others. However, the Duck class expects to receive instances of the Bill and Tail classes when it is initialized. You can tell this is a composition relationship because you can accurately describe the program by stating that the Duck _`has a`_ Bill and Tail.
 
 ### Aggregation
+
+Aggregation is almost exactly like composition. The difference is that aggregate objects can exist independently. It would be impossible for a bill to be associated with a different duck. But what if there was a Collar or Leash class?
+
+A duck could have a collar or leash, and unlike bill or tail, the collar or leash could exist independently from the duck.
+
+Another way to differentiate between aggregation and composition is to consider the object's lifespan. If the outside object controls when the inside objects are created and destroyed, composition is most suitable. 
+
+If the related object can outlast the composition object, then an aggregate relationship makes more sense.
+
+> Keep in mind that composition is aggregation; aggregation is just a more general form of composition. Any composite relationship is also an aggregate relationship, but the reverse is not true.
