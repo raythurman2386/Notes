@@ -27,8 +27,10 @@ class Store:
 
     def __str__(self):
         output = f"Welcome to {self.name}!"
+        index = 1
         for category in self.categories:
-            output += f'\n {str(category)}'
+            output += f'\n {index}. {category.name}'
+            index += 1
         return output
 
     def __repr__(self):
@@ -42,14 +44,26 @@ football_category = Category("Football", "Colts Arena", [])
 
 sports_store = Store(name="Athletics", categories=[
                      baseball_category, basketball_category, running_category, football_category])
-produce_store = Store(name="Braums", categories=[
-    "dairy", "meat", "bread", "produce"])
 
-
+# REPL
+# Read
 print(sports_store)
-# print(sports_store.name)
-# print(sports_store.categories)
-# print(produce_store)
-# print(repr(produce_store))
-# print(produce_store.name)
-# print(produce_store.categories)
+print("Type q to quit")
+
+# Evaluate
+explore = True
+while explore:
+    choice = input("Please choose a category (#): ")
+    try:
+        if choice == "q":
+            break
+
+        choice = int(choice) - 1
+
+        if choice >= 0 and choice < len(sports_store.categories):
+            print(sports_store.categories[choice])
+        else:
+            print("That number is out of range")
+
+    except ValueError:
+        print("Please enter a valid number")
