@@ -10,10 +10,18 @@
 # [2,3]
 
 def find_dups(arr):
-    num_arr = sorted(arr)
-    dups = list(set([num for num in num_arr if num_arr.count(num) > 1]))
+    # Runtime is too long
+    # dups = list(set([num for num in arr if arr.count(num) > 1]))
+    # print(dups)
+    seen = {}
+    dups = []
+    for num in arr:
+        if num in seen:
+            dups.append(num)
+        else:
+            seen[num] = 1
 
-    print(dups)
+    return dups
 
 
-find_dups([4, 3, 2, 7, 8, 2, 3, 1])
+print(find_dups([4, 3, 2, 7, 8, 2, 3, 1]))
