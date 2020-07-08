@@ -8,11 +8,14 @@
 
 ## The Single Responsibility Principle
 
+- A class should only do one thing, have a single responsibility, a single job - manage configuration for Swagger, interface with the employees table, print a HelloWorld message
+
 The single responsibility principle states that each of our classes has to be only used for one purpose
 
 We need this so that we don't have to change code as often when something changes. It's also hard to understand what the class is doing if it's doing many things
 
 An example of following the SRP is as follows:
+
 ```
 class Rectangle {
   constructor(length, width) {
@@ -28,11 +31,16 @@ class Rectangle {
 
 ## The Open/Closed Principle
 
+- Objects are open for extension but closed for modification
+- Open says you can add fields (behaviors) by inheriting from the class
+- Closed says the other entities can rely on the object's structure through implementation of a standard interface
+
 The open/closed principle states that a piece of software is open for extension, but closed for modification
 
 This means that we should be able to add more functionality without changing existing code.
 
 For example:
+
 ```
 class Rectangle {
   constructor(length, width) {
@@ -53,6 +61,8 @@ class Rectangle {
 As you can see, the existing code did not have to be changed to extend the functionality
 
 ## Liskov Substitution Principle
+
+- Objects can be replaced with subtypes without alternating the correctness of the program. Subtypes should do at least what their parents do
 
 This principle states that if we have a parent class and a child class, then we can interchange the parent and child class without getting incorrect results.
 
@@ -114,6 +124,8 @@ for(let shape of shapes) {
 
 ## Interface Segregation Principle
 
+- Just implement what you need; many interfaces are better than a huge general one
+
 The interface segregation principle states that "clients shouldn't be forced to depend on interfaces that they don't use."
 
 This means that we shouldn't impose the implementation of something if it's not needed.
@@ -121,6 +133,8 @@ This means that we shouldn't impose the implementation of something if it's not 
 JavaScript doesn't have interfaces, so this principle doesn't apply directly since it doesn't enforce the implementation of anything via interfaces.
 
 ## Dependency Inversion Principle
+
+- Abstract as much as possible "Entities must depend on abstractions not on concretions". Higher level classes must not depend on lower classes. Modules are all separate entities that can be tied together using some abstract layer.
 
 This principle states that high-level modules shouldn't depend on low-level modules and they both should depend on abstractions, and abstractions shouldn't depend upon details. Details should depend upon those abstractions.
 
