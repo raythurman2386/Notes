@@ -203,3 +203,12 @@ Now we start a series of three constructors, three different ways to send the in
     They differ by the parameter list. You can have as many different constructors as you can construct combinations of parameters.
 
 Now this one is called the default constructor. If no constructor is specified, the JDK will automatically create this default constructor. This constructor creates an object using no parameters. In this case, all of our fields are created with uninitialized values.
+
+## Collections
+
+A collection is a way of storing a series of related data under one variable name. You collect the data under a single variable to make data manipulation easier. Thus you have a collection of data under one name.
+
+- Array -- Fixed length, single element type, accessed via index
+- ArrayList (One most used in Java Web Programming) -- Variable Length, single element type, accessed via index
+- HashMap -- Variable length, Key/Value pair, accessed via key value
+- HashSet -- Variable length, single element type, accessed via the value itself
