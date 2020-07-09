@@ -212,3 +212,20 @@ A collection is a way of storing a series of related data under one variable nam
 - ArrayList (One most used in Java Web Programming) -- Variable Length, single element type, accessed via index
 - HashMap -- Variable length, Key/Value pair, accessed via key value
 - HashSet -- Variable length, single element type, accessed via the value itself
+
+# Richardsons Maturity Model
+
+- Level 0
+  - Any system that uses HTTP or HTTPS
+- Level 1
+  - Adds in use of Resources
+  - Instead of requesting everything from a single service endpoint we now include resources in our request
+- Level 2
+  - Makes proper use of HTTP methods or verbs
+  - Most systems stop at this level
+  - our class projects stop at this level
+- Level 3
+  - Provides links to areas the client might want to use next
+  - HATEOAS Hypermedia As The Engine Of Application State
+  - The gold standard for Rest APIs
+  - Very few reach this level
