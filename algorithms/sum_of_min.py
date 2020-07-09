@@ -17,20 +17,21 @@ Run through the UPER problem solving framework while going through your thought 
 
 
 def sum_of_min(arr):
-    accumulator = 0
-    for array in arr:
-        # find the min of the current array
-        index = 0
-        lowest = array[0]
-        for num in array:
-            if num < lowest:
-                lowest = num
+    print(sum([min(i) for i in arr]))
+    # accumulator = 0
+    # for array in arr:
+    #     # find the min of the current array
+    #     index = 0
+    #     lowest = array[0]
+    #     for num in array:
+    #         if num < lowest:
+    #             lowest = num
 
-        accumulator += lowest
+    #     accumulator += lowest
 
-        # accumulator += min(i)
+    #     # accumulator += min(array)
 
-    print(accumulator)
+    # print(accumulator)
 
 
 sum_of_min([[8, 4], [90, -1, 3], [9, 62], [-7, -1, -56, -6], [201], [76, 18]])
