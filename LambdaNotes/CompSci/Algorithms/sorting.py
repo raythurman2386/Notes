@@ -84,7 +84,7 @@ def reverse_string(str):
         return reverse_string(str[1:]) + str[0]
 
 
-print("\n*** Reversed String***")
+print("\n*** Reversed String ***")
 print(reverse_string("Lambda"))
 print(reverse_string("Raymond"))
 
