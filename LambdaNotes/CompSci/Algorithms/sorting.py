@@ -109,3 +109,38 @@ def palindrome(str):
 print("\n*** Is Palindrome ***")
 print(palindrome("radar"))
 print(palindrome("banana"))
+
+
+# def recur_insertion(arr, n):
+#     if n <= 1:
+#         return
+
+#     recur_insertion(arr, n - 1)
+#     last = arr[n - 1]
+#     j = n - 2
+#     while (j >= 0 and arr[j] > last):
+#         arr[j + 1] = arr[j]
+#         j = j - 1
+#     arr[j+1] = last
+
+
+# print(recur_insertion(my_numbers, len(my_numbers)),
+#       'insertion recursion', my_numbers)
+
+
+def assessment_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    smallest_idx = 0
+    for i in arr:
+        if arr[i] <= arr[smallest_idx]:
+            smallest_idx = i
+
+    item = arr.pop(smallest_idx)
+    arr.append(item)
+
+    return assessment_sort(arr[:1])
+
+
+print(assessment_sort(my_numbers))
