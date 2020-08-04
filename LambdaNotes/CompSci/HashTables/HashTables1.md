@@ -27,3 +27,29 @@ The requirements for a hash function are:
 - A hash function must be consistent. Every time it receives the same input, it must return the same output. If it's not deterministic, it is not a hash function
 - Different input data should return different numbers. For example, if the input "aqua" returns 4, then the input "beige" should not return 4.
 - A hash function must return numbers that are within a specific range.
+
+When you combine a hash function with an array, you get a data structure called a hash table. In python, hash tables are called dictionaries
+
+### A Naive Hashing Function
+
+```
+bytes_representation = "hello".encode()
+
+for byte in bytes_representation:
+    print(byte)
+```
+
+```
+def my_hashing_func(str):
+    bytes_representation = str.encode()
+
+    sum = 0
+    for byte in bytes_representation:
+        sum += byte
+
+    return sum
+```
+
+This hashing function still has a limmitaion. We need our hashing function to return integers within a specific range. Remember the purpose of our hashing function is to map our input data to an index value on a list.
+
+Constant time does not mean that it happens instantaneously. It still takes time to run the computations, of course. Constant time means that the computation takes the same amount of time regardless of the size of the hash table. If your hash table has one element, it takes the same amount of time to search for an item as it would if your hash table had one trillion elements. The same is true for insertions and deletions.
