@@ -24,12 +24,12 @@ through your thought process.
 
 
 def sum_values(my_dict):
-    total = 0
-    for value in my_dict.values():
-        if type(value) == int:
-            total += value
+    # total =
+    # for value in my_dict.values():
+    #     if type(value) == int:
+    #         total += value
 
-    return total
+    return sum([v for v in my_dict.values() if type(v) == int])
 
 
 d = {
