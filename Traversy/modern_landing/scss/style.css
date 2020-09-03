@@ -172,7 +172,8 @@ section {
 }
 
 .product__title {
-  font-size: 4rem;
+  text-transform: uppercase;
+  font-size: clamp(3rem, calc(5vw + 1rem), 5.5rem);
   line-height: 1;
   color: #fff;
   text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
@@ -183,9 +184,25 @@ section {
 }
 
 @media (min-width: 45em) {
+  .product {
+    text-align: left;
+    margin-bottom: 9em;
+  }
+  .product__title {
+    margin: 0;
+  }
   .product__image {
     float: right;
-    width: 50%;
+    width: 65%;
+    shape-outside: url(../img/shoe-1.png);
+    shape-margin: 1em;
+    margin: 0 -5em 0 0;
+  }
+  .product.shoe-white .product__image {
+    float: left;
+    shape-outside: url(../img/shoe-2.png);
+    margin: 0 0 0 -5em;
+    shape-margin: 2em;
   }
 }
 

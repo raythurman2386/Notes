@@ -156,7 +156,8 @@ section {
   text-align: center;
 
   &__title {
-    font-size: 4rem;
+    text-transform: uppercase;
+    font-size: clamp(3rem, calc(5vw + 1rem), 5.5rem);
     line-height: 1;
     color: #fff;
     text-shadow: 0 0 0.2em rgba(#000, 0.2);
@@ -167,9 +168,28 @@ section {
   }
 
   @media (min-width: 45em) {
+    text-align: left;
+    margin-bottom: 9em;
+
+    &__title {
+      margin: 0;
+    }
+
     &__image {
       float: right;
-      width: 50%;
+      width: 65%;
+      shape-outside: url(../img/shoe-1.png);
+      shape-margin: 1em;
+      margin: 0 -5em 0 0;
+    }
+
+    &.shoe-white {
+      .product__image {
+        float: left;
+        shape-outside: url(../img/shoe-2.png);
+        margin: 0 0 0 -5em;
+        shape-margin: 2em;
+      }
     }
   }
 }
