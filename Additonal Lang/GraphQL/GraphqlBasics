@@ -1,0 +1,24 @@
+# GraphQL Basics
+
+A GraphQL server provides a client with a predefined _schema_
+
+- schema - A model of the data that can be requested from the server
+
+in other words, the schema serves as a middle ground between the client and the server while defining how to access the data.
+
+Written down in Schema Definition Language (SDL), basic components of a GraphQL schema -- _types_ -- 
+
+- types - describe kinds of object that can be queried on that server and the fields they have.
+
+The schema defines what queries are allowed to be made, what types of data can be fetched, and the relationships between these types.
+You can create a GraphQL schema and build an interface around it with any programming language.
+
+Having the schema before querying, a client can validate their query against it to make sure the server
+will be able to respond to the query. While the shape of a GraphQL query closely matches the result, 
+you can predict what will be returned. This eliminates such unwelcome surprises
+as unavailable data or a wrong structure.
+
+## Three main operations:
+- Query: reading data
+- Mutation: writing data
+- Subscription: automatically receiving real-time data over time.
