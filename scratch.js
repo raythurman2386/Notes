@@ -18,53 +18,53 @@
 // console.log(camalize("How *are -You _doing"));
 
 // // state machine in JS
-// const machine = {
-//   dispatch(actionName, ...payload) {
-//     const actions = this.transitions[this.state];
-//     const action = this.transitions[this.state][actionName];
+const machine = {
+  dispatch(actionName, ...payload) {
+    const actions = this.transitions[this.state];
+    const action = this.transitions[this.state][actionName];
 
-//     if (action) {
-//       action.apply(machine, ...payload);
-//     }
-//   },
-//   changeStateTo(newState) {
-//     this.state = newState;
-//   },
-//   state: "idle",
-//   transitions: {
-//     idle: {
-//       click: () => {
-//         this.changeStateTo("fetching");
-//         service.getData().then(
-//           data => {
-//             try {
-//               this.dispatch("success", JSON.parse(data));
-//             } catch (error) {
-//               this.dispatch("failure", error);
-//             }
-//           },
-//           error => this.dispatch("failure", error)
-//         );
-//       }
-//     },
-//     fetching: {
-//       success: data => {
-//         this.changeStateTo("idle");
-//       },
-//       failure: err => {
-//         this.changeStateTo("error");
-//       }
-//     },
-//     error: {
-//       retry: () => {
-//         this.changeStateTo("idle");
-//         this.dispatch("click");
-//       }
-//     }
-//   }
-// };
+    if (action) {
+      action.apply(machine, ...payload);
+    }
+  },
+  changeStateTo(newState) {
+    this.state = newState;
+  },
+  state: "idle",
+  transitions: {
+    idle: {
+      click: () => {
+        this.changeStateTo("fetching");
+        service.getData().then(
+          data => {
+            try {
+              this.dispatch("success", JSON.parse(data));
+            } catch (error) {
+              this.dispatch("failure", error);
+            }
+          },
+          error => this.dispatch("failure", error)
+        );
+      }
+    },
+    fetching: {
+      success: data => {
+        this.changeStateTo("idle");
+      },
+      failure: err => {
+        this.changeStateTo("error");
+      }
+    },
+    error: {
+      retry: () => {
+        this.changeStateTo("idle");
+        this.dispatch("click");
+      }
+    }
+  }
+};
 
-// machine.dispatch("click");
+machine.dispatch("click");
 
 
 const testing = fetch('https://www.erome.com/a/HoCVoaxj').then(res => res.json()).then(data => console.log(data))
