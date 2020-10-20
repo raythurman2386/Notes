@@ -9,13 +9,13 @@
 // console.log(b);
 
 // // CamelCase
-// function camalize(str) {
-//   return str
-//     .toLowerCase()
-//     .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
-// }
+function camalize(str) {
+  return str
+    .toLowerCase()
+    .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+}
 
-// console.log(camalize("How *are -You _doing"));
+console.log(camalize("How *are -You _doing"));
 
 // // state machine in JS
 const machine = {
