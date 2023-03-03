@@ -16,7 +16,7 @@
     "babel-preset-es2015": "^6.9.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "webpack": "^1.13.1",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.1.11",
     "webpack-html-plugin": "^0.1.1"
   },
